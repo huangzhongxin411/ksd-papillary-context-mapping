@@ -1,0 +1,8 @@
+panel	issue_in_v0.5	polish_made_in_v0.6	data_changed	claim_changed	reason	human_review_needed	notes
+overall	Accepted figure required final micro-polish	Preserved evidence-weighted geometry and harmonized final spacing	no	no	Improve scientific hierarchy	yes	Six panels preserved
+A	Display-section note was split and a duplicate label floated under B	Integrated the complete GSM6250309 note into Panel A and removed the orphan caption	no	no	Make resource boundary immediate	yes	All five sections and counts retained
+B	Projection images retained avoidable internal whitespace	Expanded the top band and reduced margins while preserving secondary status	no	no	Prevent illustrative overlay overreading	yes	Same section, scores, coordinates, and display-scale rule
+C	Cell labels and status key needed one final readability step	Increased cell and status-key typography slightly	no	no	Make adjusted spatial evidence primary	yes	All 16 values/status labels retained
+D	Median trajectory needed slightly stronger contrast	Strengthened median line, lightened pair lines, and balanced facet titles	no	no	Clarify attenuation without spot-level inference	yes	All frozen raw/adjusted pairs retained
+E	Boundary pills needed more internal padding	Increased pill padding while retaining equal-height cards	no	no	Downgrade one-SNP-heavy TWAS appropriately	yes	Counts 51/42/9 and R2/R5 boundaries retained
+F	Boundary zones needed slightly greater visual weight	Increased zone height, padding, and text readability	no	no	Make claim ceiling explicit	yes	No plaque ROI, validation, causal niche, or nucleation claim

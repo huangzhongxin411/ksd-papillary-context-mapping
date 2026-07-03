@@ -1,0 +1,10 @@
+panel	issue_in_v0.6	change_made_in_v0.7	data_changed	claim_changed	reason	human_review_needed	notes
+overall	Working-final production pass remained	Completed final six-panel alignment pass	no	no	Improve narrative continuity	yes	Architecture only
+A	Arrow and resource strip required final balance	Thickened and centered arrow; raised subtle strip readability	no	no	Reduce internal text and empty space	yes	Counts unchanged
+B	Violin tone and label angle required final consistency	Lightened violins and standardized 18-degree labels	no	no	Make paired bulk evidence immediately legible	yes	All 104 values unchanged
+C	CI prominence and FDR alignment required final polish	Strengthened CI/points, lightened zero line, aligned FDR note	no	no	Improve double-column readability	yes	All estimates and intervals unchanged
+D	Heatmap tone, labels, and colorbar required final refinement	Reduced saturation, enlarged values, reduced label rotation, tightened colorbar	no	no	Keep related disease-context evidence together	yes	All 12 rho values unchanged; FDR values moved to legend and Source Data
+E	Whitespace, note hierarchy, and bar height required final polish	Raised bar height, compressed whitespace, centered modest note, tightened headers	no	no	Make attenuation the final quantitative result	yes	All model-outcome counts unchanged
+F	Boundary banner spacing required final polish	Equalized box height and moved group headings closer	no	no	Separate supported interpretation from exclusions	yes	Claim class unchanged
+overall	Typography required working-final confirmation	Confirmed Helvetica hierarchy at full and 50-percent scale	no	no	Match Figures 1-3	yes	Final cross-figure proofing remains
+overall	Palette required working-final confirmation	Confirmed restrained teal/gold/terracotta/gray family	no	no	Maintain accessible, non-saturated styling	yes	Final grayscale proofing remains

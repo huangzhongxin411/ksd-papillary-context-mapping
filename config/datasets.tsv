@@ -1,0 +1,11 @@
+dataset_id	category	priority	purpose	expected_input	status	notes
+KSD_GWAS_2025_TRANS_ANCESTRY	GWAS	primary	Lead SNPs, loci, MAGMA, TWAS, SMR/coloc	Summary statistics	to_confirm	Preferred main GWAS if downloadable summary statistics are available.
+KSD_GWAS_2023_EUR	GWAS	validation	Sensitivity analysis and direction check	Summary statistics	to_confirm	Useful for European-only replication and LD-matched analyses.
+FinnGen_KSD	GWAS	optional	Independent direction check	Summary statistics	to_confirm	Use only if endpoint and summary statistics are straightforward to obtain.
+GTEx_v8_TWAS_weights	eQTL/TWAS	primary	FUSION or S-PrediXcan/S-MultiXcan	Prediction weights / models	to_confirm	Kidney cortex plus selected cross-tissue references.
+GTEx_v8_eQTL	eQTL	primary	SMR/coloc and eQTL mapping	eQTL summary statistics	to_confirm	Acknowledge that GTEx kidney is not renal papilla specific.
+GSE231569	snRNA-seq	primary	Human kidney papilla cell-type localization	Raw MTX/TSV or processed object	geo_entry_confirmed	Main single-nucleus papilla dataset; listed under GSE231630 SuperSeries.
+GSE206306	spatial	primary	Visium spatial localization	Space Ranger / count matrix / image	geo_entry_confirmed	Human kidney papilla spatial transcriptomics; listed under GSE231630 SuperSeries.
+GSE231630	spatial_and_snRNA_superseries	primary	Parent record linking papilla spatial and single-nucleus datasets	Series metadata	geo_entry_confirmed	SuperSeries containing GSE206306 and GSE231569; avoid duplicate counting.
+GSE73680	bulk_microarray	primary	Randall plaque / normal papilla expression context	Series matrix or raw CEL	geo_entry_confirmed	Plaque response is contextual, not causal validation.
+GSE176155	single_cell_or_bulk	optional	External RP/papilla context	Processed or raw expression	to_confirm	Optional external context if data format and phenotype are usable.

@@ -1,0 +1,14 @@
+signature_name	signature_role	stage5B1_delta_direction	association_with_primary_modules	collinearity_risk	recommended_adjustment_role	notes
+B_cell	composition_signature	increase	weak	high	exploratory_only	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+ECM_fibrosis	injury_or_remodeling_signature	increase	moderate	very_high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+LoopTAL	composition_signature	increase	moderate	high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+T_cell	composition_signature	decrease	weak	high	exploratory_only	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+collecting_duct	composition_signature	increase	weak	very_high	avoid_due_to_collinearity	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+endothelial	composition_signature	increase	moderate	high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+epithelial_general	composition_signature	increase	weak	very_high	avoid_due_to_collinearity	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+fibroblast_stromal	composition_signature	increase	moderate	very_high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+immune_myeloid	composition_signature	increase	moderate	high	secondary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+injury_epithelial	injury_or_remodeling_signature	increase	strong	high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+mineralization_remodeling	injury_or_remodeling_signature	increase	strong	high	primary_adjustment	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+pericyte_smooth_muscle	composition_signature	decrease	moderate	very_high	avoid_due_to_collinearity	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.
+proximal_tubule	composition_signature	decrease	weak	high	exploratory_only	Prioritization balances paired-delta module coupling, signature response, and collinearity risk.

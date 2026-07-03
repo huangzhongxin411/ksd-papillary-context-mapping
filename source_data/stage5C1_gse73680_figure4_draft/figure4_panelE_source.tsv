@@ -1,0 +1,21 @@
+module_name	model_family	outcome	n_models	module_label	fraction	overall_composition_adjusted_support
+MAGMA_top100	Single-signature	Direction retained	3	MAGMA top 100	0.375	attenuated_but_retained
+MAGMA_top100	Single-signature	Attenuated	3	MAGMA top 100	0.375	attenuated_but_retained
+MAGMA_top100	Single-signature	Lost / explained	2	MAGMA top 100	0.25	attenuated_but_retained
+MAGMA_top100	Compact	Direction retained	3	MAGMA top 100	0.6	attenuated_but_retained
+MAGMA_top100	Compact	Lost / explained	2	MAGMA top 100	0.4	attenuated_but_retained
+MAGMA_top50	Single-signature	Direction retained	3	MAGMA top 50	0.375	attenuated_but_retained
+MAGMA_top50	Single-signature	Attenuated	3	MAGMA top 50	0.375	attenuated_but_retained
+MAGMA_top50	Single-signature	Lost / explained	2	MAGMA top 50	0.25	attenuated_but_retained
+MAGMA_top50	Compact	Direction retained	3	MAGMA top 50	0.6	attenuated_but_retained
+MAGMA_top50	Compact	Lost / explained	2	MAGMA top 50	0.4	attenuated_but_retained
+R1_MAGMA_Bonferroni_only	Single-signature	Direction retained	3	R1 MAGMA Bonf.	0.375	attenuated_but_retained
+R1_MAGMA_Bonferroni_only	Single-signature	Attenuated	3	R1 MAGMA Bonf.	0.375	attenuated_but_retained
+R1_MAGMA_Bonferroni_only	Single-signature	Lost / explained	2	R1 MAGMA Bonf.	0.25	attenuated_but_retained
+R1_MAGMA_Bonferroni_only	Compact	Direction retained	3	R1 MAGMA Bonf.	0.6	attenuated_but_retained
+R1_MAGMA_Bonferroni_only	Compact	Lost / explained	2	R1 MAGMA Bonf.	0.4	attenuated_but_retained
+R1_R2_R3_all_MAGMA_Bonferroni	Single-signature	Direction retained	3	R1-R3 MAGMA Bonf.	0.375	attenuated_but_retained
+R1_R2_R3_all_MAGMA_Bonferroni	Single-signature	Attenuated	3	R1-R3 MAGMA Bonf.	0.375	attenuated_but_retained
+R1_R2_R3_all_MAGMA_Bonferroni	Single-signature	Lost / explained	2	R1-R3 MAGMA Bonf.	0.25	attenuated_but_retained
+R1_R2_R3_all_MAGMA_Bonferroni	Compact	Direction retained	3	R1-R3 MAGMA Bonf.	0.6	attenuated_but_retained
+R1_R2_R3_all_MAGMA_Bonferroni	Compact	Lost / explained	2	R1-R3 MAGMA Bonf.	0.4	attenuated_but_retained

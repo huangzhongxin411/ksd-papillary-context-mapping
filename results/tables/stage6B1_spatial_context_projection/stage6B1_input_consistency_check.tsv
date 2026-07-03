@@ -1,0 +1,40 @@
+input_item	expected	found	status	file_path	notes
+five_spatial_RDS_objects	5 readable QC-passed RDS objects	5	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds;data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds;data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds;data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds;data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Stage 6A recommended primary inputs.
+Stage3R_module_table	exists/readable	TRUE	pass	results/tables/revision/stage3R_gene_tiering/candidate_gene_evidence_model_v0.2.tsv	Current module definitions, not legacy P1 definitions.
+Stage6A_module_feasibility	exists/readable	TRUE	pass	results/tables/revision/stage6A_spatial_twas_audit/spatial_module_feasibility_audit.tsv	R5 TWAS-only is expected to remain not score-feasible.
+ROI_plaque_annotation	absent	FALSE	pass_boundary_locked	docs/revision/stage6A_spatial_twas_audit/spatial_roi_plaque_annotation_audit.md	No ROI-aware analysis permitted; tissue-context projection only.
+GSM6250307_Spatial_assay	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Spatial assay verified.
+GSM6250307_coordinates	one coordinate row per spot	2438	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Coordinates verified.
+GSM6250307_tissue_image	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Tissue image verified.
+GSM6250307_nCount_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Complexity covariate verified.
+GSM6250307_nFeature_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Complexity covariate verified.
+GSM6250307_percent_mt	present or computable	computed	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Computed from Spatial counts when absent.
+GSM6250307_global_spot_id	unique section_id:barcode	2438	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250307_spatial_qc.rds	Global spot IDs verified.
+GSM6250308_Spatial_assay	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Spatial assay verified.
+GSM6250308_coordinates	one coordinate row per spot	817	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Coordinates verified.
+GSM6250308_tissue_image	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Tissue image verified.
+GSM6250308_nCount_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Complexity covariate verified.
+GSM6250308_nFeature_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Complexity covariate verified.
+GSM6250308_percent_mt	present or computable	computed	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Computed from Spatial counts when absent.
+GSM6250308_global_spot_id	unique section_id:barcode	817	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250308_spatial_qc.rds	Global spot IDs verified.
+GSM6250309_Spatial_assay	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Spatial assay verified.
+GSM6250309_coordinates	one coordinate row per spot	939	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Coordinates verified.
+GSM6250309_tissue_image	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Tissue image verified.
+GSM6250309_nCount_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Complexity covariate verified.
+GSM6250309_nFeature_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Complexity covariate verified.
+GSM6250309_percent_mt	present or computable	computed	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Computed from Spatial counts when absent.
+GSM6250309_global_spot_id	unique section_id:barcode	939	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250309_spatial_qc.rds	Global spot IDs verified.
+GSM6250310_Spatial_assay	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Spatial assay verified.
+GSM6250310_coordinates	one coordinate row per spot	1085	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Coordinates verified.
+GSM6250310_tissue_image	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Tissue image verified.
+GSM6250310_nCount_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Complexity covariate verified.
+GSM6250310_nFeature_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Complexity covariate verified.
+GSM6250310_percent_mt	present or computable	computed	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Computed from Spatial counts when absent.
+GSM6250310_global_spot_id	unique section_id:barcode	1085	pass	data/processed/spatial/gse206306/seurat_objects/GSM6250310_spatial_qc.rds	Global spot IDs verified.
+GSM7166170_Spatial_assay	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Spatial assay verified.
+GSM7166170_coordinates	one coordinate row per spot	2468	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Coordinates verified.
+GSM7166170_tissue_image	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Tissue image verified.
+GSM7166170_nCount_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Complexity covariate verified.
+GSM7166170_nFeature_Spatial	present	TRUE	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Complexity covariate verified.
+GSM7166170_percent_mt	present or computable	computed	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Computed from Spatial counts when absent.
+GSM7166170_global_spot_id	unique section_id:barcode	2468	pass	data/processed/spatial/gse206306/seurat_objects/GSM7166170_spatial_qc.rds	Global spot IDs verified.

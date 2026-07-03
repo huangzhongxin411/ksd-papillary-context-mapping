@@ -1,0 +1,7 @@
+gene	biological_role_label	magma_rank	bonferroni_significant
+UMOD	TAL identity / uromodulin biology	21	yes
+CASR	calcium sensing	10	yes
+CLDN14	calcium/ion handling / claudin biology	15	yes
+CLDN10	epithelial transport / TAL tight-junction biology	19	yes
+HIBADH	supporting MAGMA-associated context gene	6	yes
+PKD2	broader renal epithelial context	37	yes

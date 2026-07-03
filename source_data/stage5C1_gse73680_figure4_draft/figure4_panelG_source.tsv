@@ -1,0 +1,13 @@
+display_order	statement	statement_type	notes	statement_display
+1	Attenuated bulk-context support	allowed	Overall Stage 5B2 interpretation.	"Attenuated
+bulk-context support"
+2	Paired plaque/stone papilla module shift	allowed	Bulk paired comparison only.	"Paired plaque/stone papilla
+module shift"
+3	Linked to injury/remodeling signatures	allowed	Correlation/coupling, not mechanism.	"Linked to injury/remodeling
+signatures"
+4	Not cell-type-specific response	boundary	Bulk expression cannot localize response to a cell type.	"Not cell-type-specific
+response"
+5	Not genetic causality	boundary	Post-GWAS prioritization does not establish causality.	"Not genetic
+causality"
+6	Not plaque nucleation mechanism	boundary	No plaque nucleation experiment or mechanism test was performed.	"Not plaque nucleation
+mechanism"

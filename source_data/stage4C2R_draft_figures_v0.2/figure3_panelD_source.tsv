@@ -1,0 +1,19 @@
+gene	evidence_layer	status	status_simple
+UMOD	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+CASR	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+CLDN14	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+CLDN10	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+HIBADH	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+PKD2	MAGMA_Bonferroni	yes	MAGMA Bonferroni
+UMOD	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+CASR	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+CLDN14	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+CLDN10	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+HIBADH	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+PKD2	Kidney_Cortex_TWAS_proxy	not_FDR_supported_or_not_available	no FDR TWAS proxy assigned
+UMOD	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready
+CASR	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready
+CLDN14	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready
+CLDN10	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready
+HIBADH	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready
+PKD2	SMR_coloc	not_ready; no claim-grade SMR/coloc support	not claim-grade ready

@@ -1,0 +1,14 @@
+qc_item	value	status	notes
+min	1.94267	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+q01	2.67417	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+q25	17.152	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+median	57.1031	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+q75	203.037	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+q99	11670.3	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+max	648588	observed	Quantile of included-sample expression values before Stage 5B1 transformation.
+negative_values_exist	FALSE	pass	Checked before transformation.
+very_large_raw_like_values_exist	TRUE	requires_transform	Large values trigger log2(x + 1).
+missing_value_fraction_after_filtering	0.133237	pass_with_missingness	Calculated after sample filtering.
+log2_like_assessment	raw_like_positive_intensity	requires_transform	Values were positive with very large upper range, consistent with raw/normalized intensity rather than log2 scale.
+log2_transformation_applied_in_stage5B1	log2_x_plus_1_applied	applied	Values were positive with very large upper range, consistent with raw/normalized intensity rather than log2 scale.
+final_expression_matrix_used_for_modeling	in_memory_final_mat	ready_for_stage5B1_models	Final transformed matrix is held in memory and used for all Stage 5B1 scores.

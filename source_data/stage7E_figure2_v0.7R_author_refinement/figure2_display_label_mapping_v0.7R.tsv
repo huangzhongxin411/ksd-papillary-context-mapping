@@ -1,0 +1,25 @@
+mapping_type	source_value	display_value
+module	R1_MAGMA_Bonferroni_only	Bonferroni core
+module	R1_R2_R3_all_MAGMA_Bonferroni	All Bonferroni
+module	MAGMA_top50	MAGMA top 50
+module	MAGMA_top100	MAGMA top 100
+module_compact	R1_MAGMA_Bonferroni_only	Bonf. core
+module_compact	R1_R2_R3_all_MAGMA_Bonferroni	All Bonf.
+module_compact	MAGMA_top50	Top 50
+module_compact	MAGMA_top100	Top 100
+compartment	Collecting_duct_principal	Collecting duct
+compartment	Endothelial	Endothelial
+compartment	Fibroblast_stromal	Stromal
+compartment	Injured_undifferentiated_epithelial	Injured epithelial
+compartment	Loop_of_Henle_TAL	Loop/TAL
+compartment	Pericyte_smooth_muscle	Pericyte/SMC
+donor	D7290910	D10
+donor	D7290912	D12
+donor	D7290913	D13
+donor	D7290914	D14
+removal_panel	curated exemplar panel	Exemplar
+removal_panel	TAL marker panel	"TAL
+markers"
+removal_panel	calcium ion panel	Ca/ion
+removal_panel	top5 contributors	Top 5
+removal_panel	top10 contributors	Top 10

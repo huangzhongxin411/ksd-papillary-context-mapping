@@ -1,0 +1,13 @@
+standard	aliases	required_for_phase1
+SNP	SNP,rsid,rsID,ID,variant,variant_id,MarkerName,MarkerName_hg19,true
+CHR	CHR,chrom,chromosome,hm_chrom,true
+BP	BP,pos,position,base_pair_location,hm_pos,true
+EA	EA,effect_allele,A1,ALT,Allele1,hm_effect_allele,true
+NEA	NEA,other_allele,non_effect_allele,A2,REF,Allele2,hm_other_allele,true
+BETA	BETA,beta,effect,Effect,false
+OR	OR,odds_ratio,false
+SE	SE,se,StdErr,stderr,standard_error,false
+P	P,p,pval,p_value,P-value,p_value_meta,true
+EAF	EAF,eaf,effect_allele_frequency,AF,Freq1,false
+N	N,n,samplesize,sample_size,N_total,false
+INFO	INFO,info,imputation_info,imputationInfo,false

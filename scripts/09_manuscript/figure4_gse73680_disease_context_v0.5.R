@@ -1,0 +1,111 @@
+suppressPackageStartupMessages({
+  library(data.table)
+  library(ggplot2)
+  library(cowplot)
+  library(grid)
+})
+
+dir.create("results/figures", recursive = TRUE, showWarnings = FALSE)
+dir.create("docs", recursive = TRUE, showWarnings = FALSE)
+
+pal <- list(control = "#8AA0A8", plaque = "#B08A45", strong = "#3E6672",
+            moderate = "#B59A5B", muted = "#C9C9C9", program = "#7F9AA3",
+            text = "#303030")
+
+exact <- fread("results/gse73680/tables/gse73680_exact_statistics_summary.tsv")
+p1 <- fread("results/gse73680/tables/gse73680_patient_level_p1_gene_response.tsv")
+modules <- fread("results/gse73680/tables/gse73680_patient_level_module_response.tsv")
+expr_bench <- fread("results/gse73680/tables/gse73680_expression_matched_random_benchmark.tsv")
+
+panel_a <- ggplot() +
+  annotate("rect", xmin = 0.08, xmax = 0.92, ymin = 0.78, ymax = 0.94, fill = "#EEF3F4", color = pal$strong, linewidth = 0.4) +
+  annotate("rect", xmin = 0.08, xmax = 0.92, ymin = 0.54, ymax = 0.70, fill = "#F7F8F8", color = "#8A8A8A", linewidth = 0.35) +
+  annotate("rect", xmin = 0.08, xmax = 0.92, ymin = 0.30, ymax = 0.46, fill = "#F7F8F8", color = "#8A8A8A", linewidth = 0.35) +
+  annotate("rect", xmin = 0.08, xmax = 0.92, ymin = 0.06, ymax = 0.22, fill = "#EEF3F4", color = pal$strong, linewidth = 0.4) +
+  annotate("text", x = 0.50, y = 0.86, label = "GSE73680 disease-context dataset", fontface = "bold", size = 3.6, color = pal$text) +
+  annotate("text", x = 0.50, y = 0.62, label = "55 included samples: 27 control/adjacent, 28 plaque/stone papilla", size = 3.25, color = pal$text) +
+  annotate("text", x = 0.50, y = 0.38, label = "29 patients, including 26 paired patients", size = 3.25, color = pal$text) +
+  annotate("text", x = 0.50, y = 0.14, label = "patient-aware limma + paired sensitivity", fontface = "bold", size = 3.35, color = pal$text) +
+  annotate("segment", x = 0.50, xend = 0.50, y = 0.77, yend = 0.71, arrow = arrow(length = unit(0.13, "in")), color = "#777777") +
+  annotate("segment", x = 0.50, xend = 0.50, y = 0.53, yend = 0.47, arrow = arrow(length = unit(0.13, "in")), color = "#777777") +
+  annotate("segment", x = 0.50, xend = 0.50, y = 0.29, yend = 0.23, arrow = arrow(length = unit(0.13, "in")), color = "#777777") +
+  labs(title = "A. Patient-aware GSE73680 design") +
+  theme_void(base_size = 9.5) +
+  theme(plot.title = element_text(face = "bold", hjust = 0, size = 11),
+        plot.background = element_rect(fill = "white", color = NA),
+        panel.background = element_rect(fill = "white", color = NA))
+
+p1[, gene := factor(gene, levels = gene[order(paired_delta)])]
+p1[, signal_class := fifelse(p_value < 0.05, "Nominal only", "No detectable")]
+p1[, p_label := sprintf("P=%.3f", p_value)]
+panel_b <- ggplot(p1, aes(paired_delta, gene, fill = signal_class)) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "#999999", linewidth = 0.3) +
+  geom_col(width = 0.64, color = "#666666", linewidth = 0.2) +
+  geom_text(aes(label = p_label, hjust = ifelse(paired_delta >= 0, 1.05, -0.05)), size = 2.45, color = pal$text) +
+  scale_fill_manual(values = c("Nominal only" = pal$moderate, "No detectable" = pal$muted)) +
+  labs(x = "Patient-level paired delta", y = NULL, fill = "Signal",
+       title = "B. No uniform P1 single-gene response") +
+  theme_bw(base_size = 9.5) +
+  theme(axis.text.y = element_text(face = "italic"), plot.title = element_text(face = "bold"),
+        legend.position = "bottom", panel.grid.minor = element_blank())
+
+module_order <- c("MAGMA_top50", "MAGMA_top100", "MAGMA_FDR", "MAGMA_suggestive",
+                  "P1_core_TAL_candidates", "TAL_marker_set", "injury_remodeling_marker_set")
+mod_plot <- modules[module_name %in% module_order]
+mod_plot[, module_name := factor(module_name, levels = rev(module_order))]
+mod_plot[, signal_class := fcase(
+  fdr <= 0.05 & module_name == "injury_remodeling_marker_set", "Disease-context program",
+  fdr <= 0.05, "q <= 0.05",
+  fdr <= 0.10, "Borderline",
+  default = "No detectable"
+)]
+mod_plot[, q_label := sprintf("q=%.3f", fdr)]
+mod_plot[, label_x := fifelse(abs(paired_delta) < 0.03, 0.03, paired_delta)]
+mod_plot[, label_hjust := fifelse(abs(paired_delta) < 0.03, 0, 1.05)]
+panel_c <- ggplot(mod_plot, aes(paired_delta, module_name, fill = signal_class)) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "#999999", linewidth = 0.3) +
+  geom_col(width = 0.64, color = "#666666", linewidth = 0.2) +
+  geom_text(aes(x = label_x, label = q_label, hjust = label_hjust), size = 2.35, color = pal$text) +
+  scale_fill_manual(values = c("q <= 0.05" = pal$strong, Borderline = pal$moderate,
+                               "No detectable" = pal$muted, "Disease-context program" = pal$program)) +
+  labs(x = "Patient-level paired module delta", y = NULL, fill = "Support",
+       title = "C. MAGMA modules show paired disease-context shifts") +
+  theme_bw(base_size = 9.5) +
+  theme(plot.title = element_text(face = "bold"), legend.position = "bottom", panel.grid.minor = element_blank())
+
+bench_plot <- expr_bench[module_name %in% c("P1_core_TAL_candidates", "MAGMA_top50", "MAGMA_top100", "MAGMA_FDR", "MAGMA_suggestive")]
+bench_plot[, module_name := factor(module_name, levels = module_name[order(expression_matched_percentile)])]
+bench_plot[, benchmark_class := fcase(
+  interpretation == "robust_beyond_expression_level_background", "Exceeds expression-matched",
+  interpretation == "moderate_expression_matched_signal", "Moderate",
+  default = "Background-like"
+)]
+bench_plot[, emp_label := fifelse(empirical_p == 0, "emp.P<0.001", sprintf("emp.P=%.3f", empirical_p))]
+panel_d <- ggplot(bench_plot, aes(expression_matched_percentile, module_name, fill = benchmark_class)) +
+  geom_vline(xintercept = 0.95, linetype = "dashed", color = "#999999", linewidth = 0.3) +
+  geom_col(width = 0.64, color = "#666666", linewidth = 0.2) +
+  geom_text(aes(label = emp_label), hjust = 1.05, size = 2.35, color = pal$text) +
+  coord_cartesian(xlim = c(0, 1.05)) +
+  scale_fill_manual(values = c("Exceeds expression-matched" = pal$strong, Moderate = pal$moderate,
+                               "Background-like" = pal$muted)) +
+  labs(x = "Percentile among expression-matched random gene sets", y = NULL, fill = "Benchmark",
+       title = "D. Expression-matched random benchmark") +
+  theme_bw(base_size = 9.5) +
+  theme(plot.title = element_text(face = "bold"), legend.position = "bottom", panel.grid.minor = element_blank())
+
+fig <- plot_grid(panel_a, panel_b, panel_c, panel_d, ncol = 2, align = "hv")
+ggsave("results/figures/figure4_gse73680_disease_context_v0.5.pdf", fig, width = 12.5, height = 8.8, units = "in", device = "pdf", bg = "white")
+ggsave("results/figures/figure4_gse73680_disease_context_v0.5.png", fig, width = 12.5, height = 8.8, units = "in", dpi = 240, bg = "white")
+
+writeLines(c(
+  "# Figure 4 Legend v0.5",
+  "",
+  "**Figure 4. GSE73680 disease-context expression analysis supports MAGMA-prioritized modules rather than uniform P1 single-gene responses.**",
+  "(A) Patient-aware analysis design for GSE73680, including 55 included samples from 29 patients and 26 paired patients. Plaque/stone papilla and control/adjacent samples were analyzed using patient-aware models.",
+  "(B) Paired patient-level responses of six P1 candidate genes. PKD2 showed a nominal exploratory response, whereas no P1 gene reached FDR significance.",
+  "(C) Paired patient-level module responses. MAGMA-prioritized modules showed q <= 0.05 disease-context shifts; the injury-remodeling marker set is shown as a disease-context program rather than a genetic module.",
+  "(D) Expression-matched random gene-set benchmark. Dashed line indicates the 95th percentile of random gene-set expectations. MAGMA_top100, MAGMA_FDR and MAGMA_suggestive exceeded expression-matched random expectation, MAGMA_top50 was moderate and the P1 core module was background-like.",
+  "Together, these results support disease-context expression association for MAGMA-prioritized modules rather than uniform differential expression of individual P1 genes. These findings do not establish genetic causality, TWAS convergence, colocalization or spatial validation."
+), "docs/figure4_legend_v0.5.md")
+
+message("wrote Figure 4 v0.5")

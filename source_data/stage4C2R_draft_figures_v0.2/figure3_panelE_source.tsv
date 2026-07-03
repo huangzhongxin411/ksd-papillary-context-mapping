@@ -1,0 +1,10 @@
+claim_type	claim
+Allowed	MAGMA-prioritized gene
+Allowed	Kidney_Cortex proxy TWAS context
+Allowed	curated biological exemplar
+Allowed	context-mapping candidate
+Disallowed	causal gene
+Disallowed	validated disease gene
+Disallowed	SMR/coloc-supported gene
+Disallowed	papilla-specific TWAS gene
+Disallowed	therapeutic target

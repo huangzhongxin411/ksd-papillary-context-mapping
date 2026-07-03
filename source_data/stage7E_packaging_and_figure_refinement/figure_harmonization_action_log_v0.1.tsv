@@ -1,0 +1,11 @@
+figure	panel	action_category	action_description	data_changed	claim_changed	source_data_refresh_needed	human_approval_required	notes
+Figure 1	title	typography	Shortened title to 'Evidence-stratified renal papillary context mapping of KSD genetic risk'.	no	no	no	yes	Retain or remove after target-journal decision.
+Figure 1	A	information hierarchy	Moved 17,316 tested genes and 94 Bonferroni genes into a MAGMA output block.	no	no	no	no	Corrects visual attribution only.
+Figure 1	B	reader labeling	Added MAGMA only, MAGMA + proxy TWAS and TWAS proxy only labels.	no	no	no	yes	Labels are non-causal and do not change reporting groups.
+Figure 1	C	readability	Increased visibility of the partial matched-random support boundary.	no	no	no	no	Donor-level unit remains explicit.
+Figure 1	F	readability	Increased the integrated interpretation sentence size.	no	no	no	yes	All four boundary boxes were preserved.
+Figure 2	all	planned harmonization	Reduce heading, legend and Panels D-G annotation density.	no	no	no	yes	Not executed in Stage 7E.
+Figure 3	E/all	planned harmonization	Compress Panel E and add reader-facing reporting-group labels.	no	no	no	yes	Not executed in Stage 7E.
+Figure 4	title/G	planned harmonization	Compact title/subtitle and Panel G claim strip.	no	no	no	yes	Not executed in Stage 7E.
+Figure 5	title/B/F	planned harmonization	Compact title and Panel F; clarify Panel B overlay legend.	no	no	no	yes	Not executed in Stage 7E.
+Figures 1-5	all	planned harmonization	Unify font, panel labels, line weights, palette and grayscale/CVD proof.	no	no	no	yes	Execute only after target-journal selection.

@@ -1,0 +1,10 @@
+input_item	expected	found	status	file_path	notes
+Seurat object	exists and readable	readable	pass	results/scrna/gse231569/objects/gse231569_annotated_audited.rds	30940 genes x 43878 nuclei
+donor_id	metadata column exists	yes	pass	results/scrna/gse231569/objects/gse231569_annotated_audited.rds	4 donors
+phase1_cell_type	metadata column exists	yes	pass	results/scrna/gse231569/objects/gse231569_annotated_audited.rds	6 compartments
+Loop_of_Henle_TAL	label exists	yes	pass	results/scrna/gse231569/objects/gse231569_annotated_audited.rds	540 nuclei
+Stage 4B1 module score table	exists	yes	pass	results/tables/revision/stage4B1_scrna_donor_level/scrna_donor_compartment_module_scores.tsv	""
+Stage 4B1 donor consistency table	exists	yes	pass	results/tables/revision/stage4B1_scrna_donor_level/scrna_loop_tal_donor_consistency_summary.tsv	""
+Stage 3R evidence model	exists	yes	pass	results/tables/revision/stage3R_gene_tiering/candidate_gene_evidence_model_v0.2.tsv	""
+Module definitions	reconstructable from Stage 4B1 manifest	yes	pass	results/tables/revision/stage4B1_scrna_donor_level/stage4B1_gene_module_manifest.tsv	12 modules
+Gene symbol overlap	Stage 3R genes match object rownames	yes	pass	results/scrna/gse231569/objects/gse231569_annotated_audited.rds	118 overlapping genes

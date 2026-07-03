@@ -1,0 +1,23 @@
+module_name	module_role	n_genes_input	n_genes_detected	detected_fraction	module_status	notes
+R1_MAGMA_Bonferroni_only	primary_MAGMA_module	79	70	0.886075949367089	score_ready	Mean z-score can be interpreted as bulk module score.
+R1_R2_R3_all_MAGMA_Bonferroni	primary_MAGMA_module	93	84	0.903225806451613	score_ready	Mean z-score can be interpreted as bulk module score.
+MAGMA_top50	primary_MAGMA_module	50	45	0.9	score_ready	Mean z-score can be interpreted as bulk module score.
+MAGMA_top100	primary_MAGMA_module	100	91	0.91	score_ready	Mean z-score can be interpreted as bulk module score.
+R2_MAGMA_Bonferroni_plus_multi_snp_TWAS_proxy	secondary_TWAS_proxy_module	1	1	1	small_module_supplement_only	Small or sparse module; interpret only as supplementary/descriptive.
+R3_MAGMA_Bonferroni_plus_one_snp_TWAS_proxy	secondary_TWAS_proxy_module	13	13	1	score_ready	Mean z-score can be interpreted as bulk module score.
+R2_R3_MAGMA_plus_TWAS_proxy	secondary_TWAS_proxy_module	14	14	1	score_ready	Mean z-score can be interpreted as bulk module score.
+R5_TWAS_proxy_only	secondary_TWAS_proxy_module	4	1	0.25	small_module_supplement_only	Small or sparse module; interpret only as supplementary/descriptive.
+Curated_exemplar_panel	curated_exemplar_context	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+epithelial_general	composition_signature	5	5	1	score_ready	Mean z-score can be interpreted as bulk module score.
+LoopTAL	composition_signature	7	7	1	score_ready	Mean z-score can be interpreted as bulk module score.
+proximal_tubule	composition_signature	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+collecting_duct	composition_signature	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+immune_myeloid	composition_signature	7	7	1	score_ready	Mean z-score can be interpreted as bulk module score.
+T_cell	composition_signature	5	4	0.8	small_module_supplement_only	Small or sparse module; interpret only as supplementary/descriptive.
+B_cell	composition_signature	5	4	0.8	small_module_supplement_only	Small or sparse module; interpret only as supplementary/descriptive.
+fibroblast_stromal	composition_signature	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+endothelial	composition_signature	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+pericyte_smooth_muscle	composition_signature	6	6	1	score_ready	Mean z-score can be interpreted as bulk module score.
+injury_epithelial	injury_or_remodeling_signature	7	7	1	score_ready	Mean z-score can be interpreted as bulk module score.
+ECM_fibrosis	injury_or_remodeling_signature	7	7	1	score_ready	Mean z-score can be interpreted as bulk module score.
+mineralization_remodeling	injury_or_remodeling_signature	7	7	1	score_ready	Mean z-score can be interpreted as bulk module score.

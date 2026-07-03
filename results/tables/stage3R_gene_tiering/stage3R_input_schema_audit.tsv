@@ -1,0 +1,17 @@
+column_name	present	non_missing_count	unique_values_preview	used_for_classification	notes
+gene	yes	130	ACP4;ADD3;AIF1;ALPL;ANKRD6;AP1S3;AQP1;ARL15	yes	present
+source_category	yes	130	MAGMA;MAGMA;TWAS_FDR;TWAS_FDR;current_curated_exemplar;MAGMA;coloc_resource_row;MAGMA;coloc_resource_row	yes	present
+magma_rank	yes	126	94;247;60;23;284;66;55;3029	yes	present
+magma_p	yes	126	2.7396e-06;0.0002853;1.2662e-07;5e-10;0.00046679;1.8096e-07;1.0263e-07;0.082669	yes	present
+magma_fdr	yes	126	0.000504669293617021;0.0199846190322581;3.6542532e-05;3.4632e-07;0.0284610409859155;4.73657211940299e-05;3.2311656e-05;0.472213543026706	yes	present
+bonferroni_significant	yes	130	yes;no	yes	present
+gwas_locus	yes	58	KSD_L001;KSD_L052;KSD_L028;KSD_L029;KSD_L039;KSD_L023;KSD_L024;KSD_L025;KSD_L026;KSD_L027;KSD_L035;KSD_L012;KSD_L013;KSD_L030;KSD_L031;KSD_L032;KSD_L033	yes	present
+lead_snp	yes	32	rs1936824;rs239208;rs2202126;rs1170158;rs3134962;rs6000890;rs1260326;rs34783010	yes	present
+twas_fdr	yes	67	0.0205434986446679;0.0485692005624065;0.0186184809983688;0.0322515790633361;0.819162150220141;0.163098348511685;0.000154176815038531;0.0365693698553539	yes	present
+twas_reference_tissue	yes	67	GTEx_v8_Kidney_Cortex	yes	present
+twas_model_snp_count	yes	67	1;2;3	yes	present
+twas_interpretation	yes	51	weak_one_snp_proxy;stronger_proxy_support	yes	present
+smr_status	yes	130	not_ready	yes	present
+coloc_status	yes	14	not_ready	yes	present
+current_exemplar_gene	yes	130	no;yes	yes	present
+known_kidney_transport_or_calcium_gene	yes	130	no;yes	yes	present

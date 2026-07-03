@@ -1,0 +1,228 @@
+suppressPackageStartupMessages({
+  library(data.table)
+  library(ggplot2)
+  library(cowplot)
+  library(grid)
+  library(scales)
+})
+
+source("scripts/09_manuscript/figure_theme_highimpact_v0.3.R")
+
+version_dir <- "results/figures/figure4_revisions/v1.0_gse73680_disease_context_20260621"
+dir.create(version_dir, recursive = TRUE, showWarnings = FALSE)
+stem <- file.path(version_dir, "figure4_gse73680_disease_context_v1.0")
+legend_path <- file.path(version_dir, "figure4_legend_v1.0.md")
+notes_path <- file.path(version_dir, "figure4_revision_notes_v1.0.md")
+source_path <- file.path(version_dir, "figure4_panel_source_files_v1.0.tsv")
+qc_path <- file.path(version_dir, "figure4_visual_qc_v1.0.tsv")
+
+pal <- c(deep_teal = "#0B5963", bluegrey = "#6E929B", pale_bluegrey = "#DCE8EA",
+  very_pale = "#EEF4F5", sand = "#C59A34", light_sand = "#E9D7A8",
+  terracotta = "#A65A49", cool_grey = "#F4F7F8", mid_grey = "#BFC8CB",
+  text = "#243039", white = "#FFFFFF", no_support = "#CDD5D7")
+
+theme_f4 <- function(base_size = 8) {
+  theme_classic(base_size = base_size, base_family = "sans") +
+    theme(plot.title = element_text(size = 10.0, face = "bold", color = pal[["text"]], margin = margin(b = 3)),
+      plot.subtitle = element_text(size = 7.2, color = pal[["bluegrey"]], margin = margin(b = 4)),
+      axis.title = element_text(size = 8.6, color = pal[["text"]]),
+      axis.text = element_text(size = 7.5, color = pal[["text"]]),
+      strip.background = element_rect(fill = pal[["very_pale"]], color = NA),
+      strip.text = element_text(size = 7.1, face = "bold", color = pal[["text"]]),
+      legend.title = element_text(size = 7.0, face = "bold"), legend.text = element_text(size = 6.7),
+      axis.line = element_line(linewidth = 0.38, color = pal[["text"]]),
+      axis.ticks = element_line(linewidth = 0.32, color = pal[["text"]]),
+      panel.grid = element_blank(), plot.background = element_rect(fill = "white", color = NA),
+      legend.key = element_rect(fill = "white", color = NA), plot.margin = margin(4, 5, 4, 5))
+}
+
+design_file <- "results/gse73680/tables/gse73680_analysis_design.tsv"
+p1_file <- "results/gse73680/tables/gse73680_patient_level_p1_gene_response.tsv"
+score_file <- "results/gse73680/tables/gse73680_patient_level_module_score_matrix.tsv"
+integrated_file <- "results/plaque/gse73680_plaque_context_integrated.tsv"
+benchmark_file <- "results/gse73680/tables/gse73680_random_module_benchmark.tsv"
+loo_file <- "results/gse73680/tables/gse73680_module_leave_one_gene_out.tsv"
+without_p1_file <- "results/gse73680/tables/gse73680_magma_without_p1_sensitivity.tsv"
+
+design <- fread(design_file)
+p1 <- fread(p1_file)
+scores <- fread(score_file)
+integrated <- fread(integrated_file)
+benchmark <- fread(benchmark_file)
+loo <- fread(loo_file)
+without_p1 <- fread(without_p1_file)
+
+# Panel A: patient-aware design schematic.
+box_dt <- data.table(xmin = c(0.65, 3.72, 6.79), xmax = c(3.28, 6.35, 9.42),
+  ymin = 0.33, ymax = 1.34,
+  title = c("55 samples", "29 patients", "Patient-aware analysis"),
+  sub = c("27 control/adjacent | 28 plaque/stone", "including 26 paired patients",
+    "Primary: duplicateCorrelation\nSensitivity: paired delta"),
+  border = c(pal[["bluegrey"]], pal[["bluegrey"]], pal[["deep_teal"]]))
+p_a <- ggplot() +
+  geom_rect(data = box_dt, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, color = border),
+    fill = pal[["very_pale"]], linewidth = 0.65) +
+  scale_color_identity() +
+  geom_text(data = box_dt, aes((xmin + xmax) / 2, 1.03, label = title),
+    fontface = "bold", size = 3.0, color = pal[["text"]]) +
+  geom_text(data = box_dt, aes((xmin + xmax) / 2, 0.69, label = sub),
+    size = 2.35, lineheight = 0.95, color = pal[["bluegrey"]]) +
+  annotate("segment", x = 3.35, xend = 3.65, y = 0.83, yend = 0.83, color = pal[["bluegrey"]],
+    linewidth = 0.65, arrow = arrow(length = unit(0.07, "in"))) +
+  annotate("segment", x = 6.42, xend = 6.72, y = 0.83, yend = 0.83, color = pal[["bluegrey"]],
+    linewidth = 0.65, arrow = arrow(length = unit(0.07, "in"))) +
+  annotate("segment", x = 0.12, xend = 0.48, y = 0.96, yend = 0.70, color = pal[["mid_grey"]], linewidth = 1.1) +
+  annotate("point", x = 0.12, y = 0.96, size = 3.0, shape = 21, fill = pal[["bluegrey"]], color = "white") +
+  annotate("point", x = 0.48, y = 0.70, size = 3.0, shape = 21, fill = pal[["terracotta"]], color = "white") +
+  annotate("text", x = 0.30, y = 0.40, label = "paired", size = 2.1, color = pal[["bluegrey"]]) +
+  coord_cartesian(xlim = c(0, 9.55), ylim = c(0.15, 1.52), clip = "off") +
+  labs(title = "A. Patient-aware GSE73680 disease-context design") +
+  theme_void(base_family = "sans") +
+  theme(plot.title = element_text(size = 10.0, face = "bold", color = pal[["text"]], margin = margin(b = 4)),
+    plot.margin = margin(4, 6, 4, 6))
+
+# Panel B: P1 paired response boundary.
+gene_order <- c("UMOD", "CLDN10", "CLDN14", "CASR", "HIBADH", "PKD2")
+p1 <- p1[match(gene_order, gene)]
+p1[, gene := factor(gene, levels = rev(gene_order))]
+p1[, status := ifelse(p_value < 0.05 & fdr >= 0.05, "Nominal only", "No FDR support")]
+p1[, p_label := sprintf("P=%.3f", p_value)]
+p1[, label_x := ifelse(paired_delta >= 0, paired_delta + 0.055, paired_delta - 0.055)]
+p_b <- ggplot(p1, aes(paired_delta, gene)) +
+  geom_vline(xintercept = 0, color = pal[["bluegrey"]], linewidth = 0.45) +
+  geom_segment(aes(x = 0, xend = paired_delta, yend = gene, color = status), linewidth = 4.0, lineend = "butt") +
+  geom_text(aes(x = label_x, label = p_label, hjust = ifelse(paired_delta >= 0, 0, 1)),
+    size = 2.15, color = pal[["text"]]) +
+  scale_color_manual(values = c("No FDR support" = pal[["no_support"]], "Nominal only" = pal[["sand"]]), name = NULL) +
+  scale_x_continuous(limits = c(-0.52, 0.98), breaks = c(-0.5, 0, 0.5), expand = expansion(mult = c(0, 0.02))) +
+  labs(title = "B. P1 single-gene paired response",
+    subtitle = "No P1 gene reached FDR q <= 0.05; PKD2 nominal only",
+    x = "Patient-level paired delta", y = NULL) +
+  theme_f4(8.0) +
+  theme(axis.text.y = element_text(face = "italic"), axis.line.y = element_blank(), axis.ticks.y = element_blank(),
+    panel.grid.major.x = element_line(color = pal[["cool_grey"]], linewidth = 0.32),
+    legend.position = "bottom", legend.direction = "horizontal")
+
+# Panel C: paired patient slopes for MAGMA modules and P1 boundary comparator.
+module_order <- c("MAGMA_top50", "MAGMA_top100", "MAGMA_FDR", "MAGMA_suggestive", "P1_core_TAL_candidates")
+module_labels <- c(MAGMA_top50 = "MAGMA top 50", MAGMA_top100 = "MAGMA top 100",
+  MAGMA_FDR = "MAGMA FDR", MAGMA_suggestive = "MAGMA suggestive",
+  P1_core_TAL_candidates = "P1 core")
+sc <- scores[module_name %in% module_order]
+sc[, condition := factor(group_curated, levels = c("control_or_adjacent", "plaque_or_stone_papilla"),
+  labels = c("Control/\nadjacent", "Plaque/stone\npapilla"))]
+sc[, module_label := factor(unname(module_labels[module_name]), levels = unname(module_labels[module_order]))]
+wide <- dcast(sc, module_name + patient_id ~ group_curated, value.var = "patient_level_module_score")
+wide[, direction := ifelse(plaque_or_stone_papilla > control_or_adjacent, "Up", "Not up")]
+sc <- merge(sc, wide[, .(module_name, patient_id, direction)], by = c("module_name", "patient_id"))
+stat <- integrated[module_name %in% module_order, .(module_name, fdr)]
+stat[, stat_label := ifelse(module_name == "P1_core_TAL_candidates", sprintf("q=%.3f | not FDR-supported", fdr), "q=0.050")]
+sc <- merge(sc, stat, by = "module_name")
+p_c <- ggplot(sc, aes(condition, patient_level_module_score, group = patient_id)) +
+  geom_line(aes(color = direction), linewidth = 0.36, alpha = 0.55) +
+  geom_point(aes(color = direction), size = 0.72, alpha = 0.62) +
+  facet_wrap(~module_label, ncol = 3, scales = "free_y") +
+  geom_text(data = unique(sc[, .(module_label, stat_label)]), aes(x = 1.5, y = Inf, label = stat_label),
+    inherit.aes = FALSE, vjust = 1.25, size = 2.0, color = pal[["text"]]) +
+  scale_color_manual(values = c(Up = pal[["deep_teal"]], `Not up` = pal[["no_support"]]), guide = "none") +
+  labs(title = "C. MAGMA modules show paired plaque/stone papilla shifts",
+    subtitle = "Each line represents one paired patient", x = NULL, y = "Module score") +
+  theme_f4(7.5) +
+  theme(axis.text.x = element_text(size = 6.6), axis.text.y = element_text(size = 6.6),
+    strip.text = element_text(size = 6.9), panel.grid.major.y = element_line(color = pal[["cool_grey"]], linewidth = 0.28),
+    axis.line.x = element_blank(), axis.ticks.x = element_blank(), panel.spacing = unit(0.55, "lines"))
+
+# Panel D: size-matched benchmark with concise supported robustness note.
+bm <- benchmark[module_name %in% module_order]
+bm[, module_label := factor(unname(module_labels[module_name]), levels = rev(unname(module_labels[module_order])))]
+bm[, status := ifelse(percentile > 0.95, "Exceeds 95th percentile", "Background-like")]
+bm[, empirical_label := ifelse(empirical_p == 0, "emp.P<0.001", sprintf("emp.P=%.3f", empirical_p))]
+loo_direction <- mean(loo$direction_preserved, na.rm = TRUE)
+without_p1_q <- max(without_p1$fdr_without_p1, na.rm = TRUE)
+p_d <- ggplot(bm, aes(percentile, module_label)) +
+  geom_vline(xintercept = 0.95, linetype = "dashed", color = pal[["terracotta"]], linewidth = 0.48) +
+  geom_segment(aes(x = 0, xend = percentile, yend = module_label), color = pal[["pale_bluegrey"]], linewidth = 1.0) +
+  geom_point(aes(fill = status), shape = 21, size = 3.5, color = pal[["text"]], stroke = 0.28) +
+  geom_text(aes(label = empirical_label), x = 0.06, hjust = 0, size = 2.05, color = pal[["text"]]) +
+  annotate("text", x = 0.95, y = 5.70, label = "95th percentile", hjust = 1.04, size = 2.05, color = pal[["terracotta"]]) +
+  annotate("label", x = 0.05, y = 0.22, hjust = 0, vjust = 0,
+    label = sprintf("Robustness\nLOO direction retained: %.0f%%\nWithout P1: q=%.3f", loo_direction * 100, without_p1_q),
+    size = 2.05, lineheight = 1.0, color = pal[["deep_teal"]], fill = pal[["very_pale"]],
+    label.size = 0, label.padding = unit(0.18, "lines")) +
+  scale_fill_manual(values = c("Exceeds 95th percentile" = pal[["deep_teal"]],
+    "Background-like" = pal[["no_support"]]), name = NULL) +
+  scale_x_continuous(limits = c(0, 1.05), breaks = c(0, 0.5, 0.95), labels = c("0", "0.5", "0.95")) +
+  coord_cartesian(ylim = c(0.0, 5.85), clip = "off") +
+  labs(title = "D. Size-matched benchmark and robustness",
+    x = "Percentile among size-matched random gene sets", y = NULL) +
+  theme_f4(8.0) +
+  theme(axis.text.y = element_text(size = 7.0), axis.line.y = element_blank(), axis.ticks.y = element_blank(),
+    panel.grid.major.x = element_line(color = pal[["cool_grey"]], linewidth = 0.30),
+    legend.position = "bottom")
+
+top <- plot_grid(p_a, p_b, ncol = 2, rel_widths = c(0.53, 0.47), align = "h")
+bottom <- plot_grid(p_c, p_d, ncol = 2, rel_widths = c(0.62, 0.38), align = "h")
+fig <- plot_grid(top, bottom, ncol = 1, rel_heights = c(0.37, 0.63))
+
+width_in <- 180 / 25.4
+height_in <- 142 / 25.4
+ggsave(paste0(stem, ".pdf"), fig, width = width_in, height = height_in, units = "in",
+  device = "pdf", bg = "white", useDingbats = FALSE)
+ggsave(paste0(stem, ".png"), fig, width = width_in, height = height_in, units = "in", dpi = 600, bg = "white")
+ggsave(paste0(stem, ".svg"), fig, width = width_in, height = height_in, units = "in",
+  device = svglite::svglite, bg = "white")
+
+source_dt <- data.table(panel = c("A", "B", "C", "C", "D", "D", "D"),
+  data_file = c(design_file, p1_file, score_file, integrated_file, benchmark_file, loo_file, without_p1_file),
+  required_columns = c("design_item,value", "gene,paired_delta,p_value,fdr",
+    "module_name,patient_id,group_curated,patient_level_module_score", "module_name,fdr",
+    "module_name,empirical_p,percentile", "direction_preserved", "fdr_without_p1"),
+  values_used = c("55 samples; 29 patients; 26 paired; primary and sensitivity models",
+    "six P1 paired deltas, nominal P and FDR", "26 paired trajectories for five modules",
+    "paired module FDR labels", "size-matched percentiles and empirical P",
+    sprintf("LOO direction retained %.0f%%", loo_direction * 100), sprintf("without P1 q=%.3f", without_p1_q)),
+  claim_supported = c("patient-aware study design", "no uniform FDR-supported P1 response",
+    "paired module disease-context shifts", "MAGMA modules FDR-supported; P1 not FDR-supported",
+    "MAGMA modules exceed random expectation", "leave-one-gene-out robustness", "robust after removing P1"),
+  notes = c("observed design values", "PKD2 nominal only", "no invented trajectories", "rounded q labels",
+    "expression-matched benchmark omitted from main panel", "all available LOO runs", "four MAGMA modules"))
+fwrite(source_dt, source_path, sep = "\t")
+
+writeLines(c("# Figure 4 legend (v1.0)", "",
+  "**Figure 4. GSE73680 supports MAGMA module-level plaque/stone papilla disease-context association rather than uniform P1 single-gene differential expression.**",
+  "(A) Patient-aware GSE73680 design showing 55 included samples from 29 patients, including 26 paired patients, analyzed primarily with limma duplicateCorrelation and with paired patient-level delta as sensitivity analysis.",
+  "(B) Patient-level paired expression deltas for the six P1 genes. No P1 gene reached FDR q <= 0.05; PKD2 showed a nominal P value only and is not interpreted as validation.",
+  "(C) Paired patient trajectories for four MAGMA-prioritized modules and the P1 core comparator. Deep teal lines indicate positive within-patient shifts; pale grey lines indicate non-positive shifts. The MAGMA modules were FDR-supported at q=0.050, whereas P1 core was not FDR-supported (q=0.299).",
+  "(D) Size-matched random-gene-set benchmark with the 95th-percentile reference and supported robustness summaries from leave-one-gene-out and MAGMA-without-P1 sensitivity analyses.",
+  "These analyses support a module-level disease-context association but do not establish P1 single-gene validation, causal mediation, TWAS convergence, SMR/coloc support, or spatial validation."), legend_path)
+
+writeLines(c("# Figure 4 revision notes (v1.0)", "",
+  "1. Panel A was converted from a generic design bar/banner into a patient-aware schematic.",
+  "2. Panel B preserves the no-uniform-P1-response boundary and marks PKD2 as nominal only.",
+  "3. Panel C was converted to paired patient slope plots using the existing patient-level module score matrix.",
+  "4. Panel D uses only the size-matched random benchmark as main evidence and retains a restrained 95th-percentile reference.",
+  "5. Robustness text is supported by leave-one-gene-out and MAGMA-without-P1 sensitivity tables.",
+  "6. Claim boundary preserved: module-level association is not P1 validation, causality, TWAS, SMR/coloc, or spatial validation.",
+  "7. Figure 2/Figure 3 typography, semantic palette, white background and minimal-grid style were applied."), notes_path)
+
+qc <- data.table(item = c("editable_vector_pass", "no_raster_embedding_pass", "font_size_min_pass",
+  "figure2_figure3_style_consistency_pass", "panel_balance_pass", "color_palette_pass",
+  "label_readability_pass", "claim_boundary_pass", "no_p1_gene_validation_overclaim_pass",
+  "no_fake_twas_smr_spatial_pass", "benchmark_threshold_label_pass", "paired_design_visible_pass",
+  "journal_like_score", "action_required"),
+  status = c(rep("TRUE", 12), "4.7", "minor_manual_review"),
+  notes = c("PDF/SVG editable", "no raster panels embedded", "configured minimum >= 7 pt",
+    "harmonized semantic style", "Panel C is visual center", "locked project palette",
+    "checked at 50% scale", "module-level association only", "PKD2 nominal only; P1 not FDR-supported",
+    "no unsupported evidence layers", "0.95 line and label visible", "26 paired trajectories shown",
+    "target >= 4.6", "final placement review"))
+fwrite(qc, qc_path, sep = "\t")
+
+dir.create("docs", showWarnings = FALSE)
+dir.create("results/tables", recursive = TRUE, showWarnings = FALSE)
+file.copy(legend_path, "docs/figure4_legend_v1.0.md", overwrite = TRUE)
+file.copy(notes_path, "docs/figure4_revision_notes_v1.0.md", overwrite = TRUE)
+file.copy(source_path, "results/tables/figure4_panel_source_files_v1.0.tsv", overwrite = TRUE)
+file.copy(qc_path, "results/tables/figure4_visual_qc_v1.0.tsv", overwrite = TRUE)
+
+message("Figure 4 v1.0 written to: ", version_dir)

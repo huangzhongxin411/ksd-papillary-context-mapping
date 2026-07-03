@@ -1,0 +1,17 @@
+module_name	donor_id	loop_tal_n_nuclei	n_compartments_compared	loop_tal_mean_score	loop_tal_rank	loop_tal_percentile_rank	top_compartment	top_compartment_score	rank_support_label	low_loop_tal_cell_count_flag	notes	module_label	donor_short
+MAGMA_top100	GSM7290910	29	6	0.332476731896957	1	100	Loop_of_Henle_TAL	0.332476731896957	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top100	D7290910
+MAGMA_top100	GSM7290912	244	6	0.312030032499336	1	100	Loop_of_Henle_TAL	0.312030032499336	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top100	D7290912
+MAGMA_top100	GSM7290913	263	6	0.363084600051379	1	100	Loop_of_Henle_TAL	0.363084600051379	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top100	D7290913
+MAGMA_top100	GSM7290914	4	5	0.271969177976898	1	100	Loop_of_Henle_TAL	0.271969177976898	top_rank	yes	within-donor rank by mean donor x compartment module score	MAGMA top100	D7290914
+MAGMA_top50	GSM7290910	29	6	0.3980713845059	1	100	Loop_of_Henle_TAL	0.3980713845059	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top50	D7290910
+MAGMA_top50	GSM7290912	244	6	0.363367935726546	1	100	Loop_of_Henle_TAL	0.363367935726546	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top50	D7290912
+MAGMA_top50	GSM7290913	263	6	0.42800470971909	1	100	Loop_of_Henle_TAL	0.42800470971909	top_rank	no	within-donor rank by mean donor x compartment module score	MAGMA top50	D7290913
+MAGMA_top50	GSM7290914	4	5	0.305653749506964	1	100	Loop_of_Henle_TAL	0.305653749506964	top_rank	yes	within-donor rank by mean donor x compartment module score	MAGMA top50	D7290914
+R1_MAGMA_Bonferroni_only	GSM7290910	29	6	0.385075544742948	1	100	Loop_of_Henle_TAL	0.385075544742948	top_rank	no	within-donor rank by mean donor x compartment module score	R1 Bonferroni	D7290910
+R1_MAGMA_Bonferroni_only	GSM7290912	244	6	0.359758130035949	1	100	Loop_of_Henle_TAL	0.359758130035949	top_rank	no	within-donor rank by mean donor x compartment module score	R1 Bonferroni	D7290912
+R1_MAGMA_Bonferroni_only	GSM7290913	263	6	0.424751233040624	1	100	Loop_of_Henle_TAL	0.424751233040624	top_rank	no	within-donor rank by mean donor x compartment module score	R1 Bonferroni	D7290913
+R1_MAGMA_Bonferroni_only	GSM7290914	4	5	0.319639487508703	1	100	Loop_of_Henle_TAL	0.319639487508703	top_rank	yes	within-donor rank by mean donor x compartment module score	R1 Bonferroni	D7290914
+R1_R2_R3_all_MAGMA_Bonferroni	GSM7290910	29	6	0.346194684460232	1	100	Loop_of_Henle_TAL	0.346194684460232	top_rank	no	within-donor rank by mean donor x compartment module score	R1-R3 Bonf.	D7290910
+R1_R2_R3_all_MAGMA_Bonferroni	GSM7290912	244	6	0.322786726010979	1	100	Loop_of_Henle_TAL	0.322786726010979	top_rank	no	within-donor rank by mean donor x compartment module score	R1-R3 Bonf.	D7290912
+R1_R2_R3_all_MAGMA_Bonferroni	GSM7290913	263	6	0.377586800132559	1	100	Loop_of_Henle_TAL	0.377586800132559	top_rank	no	within-donor rank by mean donor x compartment module score	R1-R3 Bonf.	D7290913
+R1_R2_R3_all_MAGMA_Bonferroni	GSM7290914	4	5	0.282306915084205	1	100	Loop_of_Henle_TAL	0.282306915084205	top_rank	yes	within-donor rank by mean donor x compartment module score	R1-R3 Bonf.	D7290914

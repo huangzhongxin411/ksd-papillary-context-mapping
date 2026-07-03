@@ -1,0 +1,3 @@
+sample_id	dataset	donor_id	disease_status	stone_type	section_id	region	platform	has_image	has_coordinates	notes
+pending_GSE206306	GSE206306	unknown	unknown	unknown	unknown	renal_papilla_or_spatial_region_pending	unknown	FALSE	FALSE	Template row; replace after spatial raw/processed files and sample metadata are available.
+pending_GSE231630	GSE231630	unknown	unknown	unknown	unknown	renal_papilla_or_spatial_region_pending	unknown	FALSE	FALSE	Template row; replace after spatial raw/processed files and sample metadata are available.

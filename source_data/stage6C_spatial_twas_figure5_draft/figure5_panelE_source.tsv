@@ -1,0 +1,6 @@
+component	category	value	status	display_note
+FDR-supported TWAS	one-SNP	42	available_weaker_proxy	weaker proxy
+FDR-supported TWAS	multi-SNP	9	available_stronger_proxy_but_supplementary	supplementary proxy
+R2 spatial module	one-gene descriptive	1	small_module_interpret_cautiously	not for main claim
+R5 spatial module	not score-feasible	1	not_score_feasible	1/4 genes detected
+TWAS boundary	GTEx v8 Kidney_Cortex proxy		boundary_only	not papilla-specific regulation; not SMR/coloc support

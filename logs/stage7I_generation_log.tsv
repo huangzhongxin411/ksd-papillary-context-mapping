@@ -1,0 +1,7 @@
+item	value	status	verified
+base manuscript	docs/revision/stage7H_bmc_genomics_adaptation/manuscript_v2.3_BMC_Genomics_adapted.md	read	yes
+analysis	not rerun	locked	yes
+abstract	three headings; 278 words	pass	yes
+references	41 to 38; bidirectional integrity pass	pass	yes
+overclaim	zero critical; zero needs_revision	pass	yes
+DOCX	not generated	blocked	yes

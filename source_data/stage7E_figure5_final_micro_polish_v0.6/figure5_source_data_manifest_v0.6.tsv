@@ -1,0 +1,7 @@
+panel	source_data_file	source_exists	row_count_if_readable	column_count_if_readable	data_changed_from_v0.5	claim_changed_from_v0.5	ready_for_publication_source_data	notes
+A	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelA_source.tsv	yes	5	14	no	no	yes	Five-section QC, section spot counts, representative-selection rule, and no-ROI boundary.
+B	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelB_source.tsv	yes	1878	22	no	no	yes	Frozen representative-section spot scores and histology coordinates; visualization only.
+C	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelC_source.tsv	yes	16	15	no	no	yes	Four modules x four contexts with adjusted median rho and locked status labels.
+D	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelD_source.tsv	yes	80	16	no	no	yes	All raw/adjusted section-module pairs; no spot-level P values.
+E	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelE_source.tsv	yes	5	5	no	no	yes	TWAS proxy counts and R2/R5 feasibility boundaries.
+F	results/tables/revision/stage6C_spatial_twas_figure5_draft/figure5_panelF_source.tsv;results/tables/revision/stage6C_spatial_twas_figure5_draft/spatial_twas_final_claim_lock_stage6C.tsv	yes	6;9	5;6	no	no	yes	Stage 6C boundary source plus locked claim table; wording condensed without claim upgrade.
