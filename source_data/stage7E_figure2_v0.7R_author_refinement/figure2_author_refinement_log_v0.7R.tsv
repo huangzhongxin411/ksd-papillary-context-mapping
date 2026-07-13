@@ -1,6 +1,0 @@
-panel	v0.7_baseline_preserved	targeted_refinement	data_changed	claim_changed	v0.8_layout_used	notes
-A	yes	Strengthened the projection arrow and GSE231569 papilla snRNA label while retaining the compact resource metrics and analysis-unit strip.	no	no	no	No Manhattan plot or new genetic content added.
-B	yes	Tightened the unchanged color bar and added a thin Loop/TAL row marker without modifying values or scale.	no	no	no	Panel B remains the dominant quantitative anchor.
-C	yes	Reduced card-border weight, softened fill and decreased glyph size; moved the Source Data statement to the legend.	no	no	no	The three 4/4, 4/4 and 5/5 summaries are unchanged.
-D	yes	Moved and reflowed the annotation above the plot so it no longer crowds the 100-percentile points.	no	no	no	Source-backed percentile display only; no P values, stars or null distribution added.
-E	yes	Rebalanced spacing between supported and not-claimed boxes while retaining equal-height boxes and identical interpretation boundaries.	no	no	no	No claim escalation.

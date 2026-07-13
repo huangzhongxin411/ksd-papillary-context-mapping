@@ -1,36 +1,28 @@
 {
   "title": "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk",
   "upload_type": "software",
-  "publication_date": "2026-07-02",
-  "description": "Code, source data, supplementary tables, manifests and logs supporting the BMC Genomics manuscript.",
+  "description": "Code, final source data, supplementary tables, manifests and selected reproducibility scripts supporting the v3.2 BMC Genomics manuscript.",
   "creators": [
     {
-      "name": "Huang, Zhongxin",
-      "affiliation": "Department of Urology, The First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, China"
+      "name": "Huang, Zhongxin"
     },
     {
-      "name": "Duan, Xiaolu",
-      "affiliation": "Guangdong Provincial Key Laboratory of Urological Diseases, Department of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, People's Republic of China"
+      "name": "Duan, Xiaolu"
     },
     {
-      "name": "Zeng, Guohua",
-      "affiliation": "Department of Urology, Minimally Invasive Surgery Center, Guangdong Key Laboratory of Urology, Guangzhou Urology Research Institute, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, China"
+      "name": "Zeng, Guohua"
     },
     {
-      "name": "Pan, Minglian",
-      "affiliation": "Guangdong Provincial Key Laboratory of Urological Diseases, Department of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, People's Republic of China"
+      "name": "Pan, Minglian"
     },
     {
-      "name": "Wang, Cong",
-      "affiliation": "Guangdong Provincial Key Laboratory of Urological Diseases, Department of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, People's Republic of China"
+      "name": "Wang, Cong"
     },
     {
-      "name": "Huang, Tianyu",
-      "affiliation": "Guangdong Provincial Key Laboratory of Urological Diseases, Department of Urology, The First Affiliated Hospital of Guangzhou Medical University, Guangzhou, Guangdong, People's Republic of China"
+      "name": "Huang, Tianyu"
     },
     {
-      "name": "Li, Mingyong",
-      "affiliation": "Department of Urology, The First Affiliated Hospital, Hengyang Medical School, University of South China, Hengyang, China"
+      "name": "Li, Mingyong"
     }
   ],
   "keywords": [
@@ -43,7 +35,8 @@
     "TWAS"
   ],
   "license": "MIT",
-  "notes": "Code is MIT licensed. Documentation and author-generated tabular data are CC BY 4.0 under LICENSE-DATA. Corresponding authors: Xiaolu Duan (94302304@qq.com) and Guohua Zeng (gzgyzgh@vip.sina.com). Repository URL: https://github.com/huangzhongxin411/ksd-papillary-context-mapping. Repository DOI remains pending until authorized Zenodo release.",
+  "version": "1.0.0",
+  "notes": "HUMAN TO COMPLETE at release: confirm creator metadata, actual release date and minted Zenodo DOI. Code is MIT licensed; author-generated documentation and tabular data use LICENSE-DATA.",
   "related_identifiers": [
     {
       "identifier": "https://github.com/huangzhongxin411/ksd-papillary-context-mapping",

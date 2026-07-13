@@ -1,0 +1,23 @@
+sample_id	section_id	control_or_disease	metadata_confidence	predicted_compartment	n_spots	percent_spots	median_prediction_score_for_predicted_compartment	notes
+GSM6250307	V10M09-035_XY04-F39	control	moderate	Collecting duct	2416	99.0976210008203	0.881085177054249	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250307	V10M09-035_XY04-F39	control	moderate	Injured/undifferentiated epithelial	22	0.902378999179655	0.54756353457563	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250308	V19S25-020_XY02-KRP428_slide2	stone_disease	high	Collecting duct	561	68.6658506731946	0.759410587472033	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250308	V19S25-020_XY02-KRP428_slide2	stone_disease	high	Injured/undifferentiated epithelial	256	31.3341493268054	0.687475141576175	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250309	V10M09-035_XY03-KRP449-440	stone_disease	high	Collecting duct	804	85.6230031948882	0.967942099753371	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250309	V10M09-035_XY03-KRP449-440	stone_disease	high	Injured/undifferentiated epithelial	135	14.3769968051118	0.671459711927189	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250310	V10M09-035_XY02-KRP429-478	stone_disease	high	Injured/undifferentiated epithelial	1064	98.0645161290323	0.99685126586694	Broad-compartment max-predicted label from Seurat TransferData.
+GSM6250310	V10M09-035_XY02-KRP429-478	stone_disease	high	Collecting duct	21	1.93548387096774	0.578020477140358	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_446	stone_disease	moderate	Injured/undifferentiated epithelial	604	92.0731707317073	0.856251551787825	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_446	stone_disease	moderate	Collecting duct	52	7.92682926829268	0.618946807520139	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_462	stone_disease	moderate	Injured/undifferentiated epithelial	216	82.4427480916031	0.974323684887581	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_462	stone_disease	moderate	Collecting duct	46	17.5572519083969	0.830312761363538	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_475	stone_disease	moderate	Injured/undifferentiated epithelial	257	85.9531772575251	0.985203046262826	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166168_inferred_from_archive	V12Y24.346_XY01_475	stone_disease	moderate	Collecting duct	42	14.0468227424749	0.748345738022626	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166169_inferred_from_archive	V12Y24.346_XY02_F59	stone_disease	moderate	Collecting duct	1358	97.979797979798	0.855819313541645	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166169_inferred_from_archive	V12Y24.346_XY02_F59	stone_disease	moderate	Injured/undifferentiated epithelial	28	2.02020202020202	0.533065484134772	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166169_inferred_from_archive	V12Y24.346_XY02_F63	stone_disease	moderate	Collecting duct	916	66.5697674418605	0.731959935581097	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166169_inferred_from_archive	V12Y24.346_XY02_F63	stone_disease	moderate	Injured/undifferentiated epithelial	376	27.3255813953488	0.664449240944739	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166169_inferred_from_archive	V12Y24.346_XY02_F63	stone_disease	moderate	Fibroblast/stromal	84	6.1046511627907	0.480920816987434	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166170	GSM7166170_geo_V12Y24.346_XY04_M50	stone_disease	high	Injured/undifferentiated epithelial	1833	74.2706645056726	0.656826246562741	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166170	GSM7166170_geo_V12Y24.346_XY04_M50	stone_disease	high	Collecting duct	513	20.7860615883306	0.571905231477993	Broad-compartment max-predicted label from Seurat TransferData.
+GSM7166170	GSM7166170_geo_V12Y24.346_XY04_M50	stone_disease	high	Fibroblast/stromal	122	4.94327390599676	0.472851415090875	Broad-compartment max-predicted label from Seurat TransferData.

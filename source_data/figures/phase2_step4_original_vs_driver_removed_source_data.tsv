@@ -1,0 +1,31 @@
+module_name	statistic_name	score_set	value
+MAGMA_Bonferroni	median LoopTAL-minus-other across all 4 donors	original_value	0.171158004600998
+MAGMA_Bonferroni	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	original_value	0.195369917230528
+MAGMA_Bonferroni	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	original_value	0.171158004600998
+MAGMA_FDR05	median LoopTAL-minus-other across all 4 donors	original_value	0.0849013643741452
+MAGMA_FDR05	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	original_value	0.0959727495597771
+MAGMA_FDR05	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	original_value	0.0849013643741452
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other across all 4 donors	original_value	0.127600919077046
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	original_value	0.142949600246877
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	original_value	0.127600919077046
+MAGMA_top100	median LoopTAL-minus-other across all 4 donors	original_value	0.165912932336884
+MAGMA_top100	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	original_value	0.189325388192375
+MAGMA_top100	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	original_value	0.165912932336884
+MAGMA_top50	median LoopTAL-minus-other across all 4 donors	original_value	0.195245093705619
+MAGMA_top50	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	original_value	0.222798377083918
+MAGMA_top50	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	original_value	0.195245093705619
+MAGMA_Bonferroni	median LoopTAL-minus-other across all 4 donors	driver_removed_value	0.111954020042679
+MAGMA_Bonferroni	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	driver_removed_value	0.129068068170231
+MAGMA_Bonferroni	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	driver_removed_value	0.111954020042679
+MAGMA_FDR05	median LoopTAL-minus-other across all 4 donors	driver_removed_value	0.0695716609803841
+MAGMA_FDR05	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	driver_removed_value	0.078755056327754
+MAGMA_FDR05	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	driver_removed_value	0.0695716609803841
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other across all 4 donors	driver_removed_value	0.0982078268560059
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	driver_removed_value	0.109901009110702
+MAGMA_suggestive_p1e4	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	driver_removed_value	0.0982078268560059
+MAGMA_top100	median LoopTAL-minus-other across all 4 donors	driver_removed_value	0.11056315579958
+MAGMA_top100	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	driver_removed_value	0.127327633419374
+MAGMA_top100	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	driver_removed_value	0.11056315579958
+MAGMA_top50	median LoopTAL-minus-other across all 4 donors	driver_removed_value	0.0834103871825903
+MAGMA_top50	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=20	driver_removed_value	0.0976240403943457
+MAGMA_top50	median LoopTAL-minus-other among donors with Loop/TAL nuclei >=50	driver_removed_value	0.0834103871825903

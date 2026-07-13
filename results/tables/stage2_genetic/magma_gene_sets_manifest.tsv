@@ -1,6 +1,0 @@
-gene_set_name	n_genes_expected	n_genes_found	source_file	selection_rule	created_before_downstream_analysis	notes
-MAGMA_top50	50	50	results/tables/magma_top50_top100_gene_sets.tsv	top 50 by MAGMA rank	yes	
-MAGMA_top100	100	99	results/tables/magma_top50_top100_gene_sets.tsv	top 100 by MAGMA rank	yes	
-MAGMA_Bonferroni	94	94	results/tables/magma_genes.tsv	Bonferroni P < 0.05/n tested genes	yes	
-MAGMA_FDR	369	369	results/tables/magma_genes.tsv	BH FDR < 0.05	yes	
-MAGMA_suggestive	187	187	results/tables/magma_genes.tsv	P < 1e-4	yes	

@@ -1,0 +1,4 @@
+category	n_genes	interpretation
+FDR-supported TWAS genes	51	Proxy annotation layer
+one-SNP proxy models	42	Weak/high-risk proxy annotation
+multi-SNP proxy models	9	Stronger proxy annotation but not regulatory evidence
