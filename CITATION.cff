@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this repository, cite the associated manuscript and the final repository release."
-title: "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk"
+title: "Post-GWAS mapping of kidney stone disease genetic risk to renal papillary contexts"
 type: software
-version: "1.0.0"
+version: "1.0.1"
 url: "https://github.com/huangzhongxin411/ksd-papillary-context-mapping"
 authors:
   - given-names: Zhongxin
@@ -21,7 +21,7 @@ authors:
     family-names: Li
 preferred-citation:
   type: article
-  title: "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk"
-  notes: "Journal citation and repository archive DOI are HUMAN TO COMPLETE after acceptance/release."
+  title: "Post-GWAS mapping of kidney stone disease genetic risk to renal papillary contexts"
+  notes: "Journal citation and repository archive DOI are HUMAN TO COMPLETE after acceptance and release."
 repository-code: "https://github.com/huangzhongxin411/ksd-papillary-context-mapping"
 # HUMAN TO COMPLETE at release: add date-released and the minted Zenodo DOI.

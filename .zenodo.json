@@ -1,7 +1,7 @@
 {
-  "title": "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk",
+  "title": "Post-GWAS mapping of kidney stone disease genetic risk to renal papillary contexts",
   "upload_type": "software",
-  "description": "Code, final source data, supplementary tables, manifests and selected reproducibility scripts supporting the v3.2 BMC Genomics manuscript.",
+  "description": "Code, source data, supplementary tables, manifests and selected reproducibility scripts supporting the v3.3 BMC Genomics manuscript.",
   "creators": [
     {
       "name": "Huang, Zhongxin"
@@ -35,7 +35,7 @@
     "TWAS"
   ],
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "notes": "HUMAN TO COMPLETE at release: confirm creator metadata, actual release date and minted Zenodo DOI. Code is MIT licensed; author-generated documentation and tabular data use LICENSE-DATA.",
   "related_identifiers": [
     {

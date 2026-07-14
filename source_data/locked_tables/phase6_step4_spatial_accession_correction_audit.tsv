@@ -1,0 +1,11 @@
+location	old_text_or_issue	new_text	resolved	notes
+Abstract	All ten sections attributed to GSE206306	Ten complete sections: four GSE206306 plus six GSE231630	yes	Broad-compartment projection only.
+Background	Only GSE206306 named	Four GSE206306 and six GSE231630 sections	yes	Descriptive use retained.
+Results spatial subsection	Ten complete GSE206306 sections	Ten complete spatial sections comprising 4/6 accessions	yes	No ROI or enrichment claim added.
+Methods study design	Ten GSE206306 sections	Ten sections comprising four GSE206306 and six GSE231630	yes	Reference unchanged except global renumbering.
+Methods spatial	All sections assigned to GSE206306	Mixed 4/6 accession composition stated	yes	Seurat objects and zero/nonzero-sparse transfer wording added.
+Discussion	Generic ten sections	Ten sections from GSE206306 and GSE231630	yes	No lesion inference.
+Limitations	Accession composition absent	Mixed resource reflected by corrected manuscript context	yes	No new limitation created.
+Supplementary Figure S2 legend	Ten GSE206306 sections	Four GSE206306 plus six GSE231630	yes	Descriptive routing retained.
+Data Availability	GSE231630 omitted	GSE231630 added	yes	All four transcriptomic GEO accessions now present.
+
