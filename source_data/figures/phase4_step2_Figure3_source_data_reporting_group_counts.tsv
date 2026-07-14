@@ -1,0 +1,7 @@
+reporting_group	n_genes	group_name
+R1	68	MAGMA + strong snRNA context
+R2	1	MAGMA + strong snRNA context + multi-SNP TWAS proxy
+R3	2	MAGMA + strong snRNA context + one-SNP TWAS proxy
+R4	141	MAGMA-only or MAGMA + partial snRNA context
+R5	16	TWAS proxy only
+R6	7	Contextual or unsupported genes

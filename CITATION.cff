@@ -1,20 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and repository release."
+message: "If you use this repository, cite the associated manuscript and the final repository release."
 title: "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk"
 type: software
-version: "1.0.0-rc1"
-date-released: "2026-07-02"
+version: "1.0.0"
 url: "https://github.com/huangzhongxin411/ksd-papillary-context-mapping"
-doi: "[TO FILL: Zenodo DOI]"
 authors:
   - given-names: Zhongxin
     family-names: Huang
   - given-names: Xiaolu
     family-names: Duan
-    email: 94302304@qq.com
   - given-names: Guohua
     family-names: Zeng
-    email: gzgyzgh@vip.sina.com
   - given-names: Minglian
     family-names: Pan
   - given-names: Cong
@@ -26,19 +22,6 @@ authors:
 preferred-citation:
   type: article
   title: "Post-GWAS renal papillary context mapping of kidney stone disease genetic risk"
-  authors:
-    - given-names: Zhongxin
-      family-names: Huang
-    - given-names: Xiaolu
-      family-names: Duan
-    - given-names: Guohua
-      family-names: Zeng
-    - given-names: Minglian
-      family-names: Pan
-    - given-names: Cong
-      family-names: Wang
-    - given-names: Tianyu
-      family-names: Huang
-    - given-names: Mingyong
-      family-names: Li
-  notes: "Manuscript and repository DOI pending. Corresponding authors: Xiaolu Duan (94302304@qq.com) and Guohua Zeng (gzgyzgh@vip.sina.com)."
+  notes: "Journal citation and repository archive DOI are HUMAN TO COMPLETE after acceptance/release."
+repository-code: "https://github.com/huangzhongxin411/ksd-papillary-context-mapping"
+# HUMAN TO COMPLETE at release: add date-released and the minted Zenodo DOI.

@@ -1,2 +1,0 @@
-figure_id	version	pdf_exists	png_exists	svg_exists	png_intended_dpi	minimum_configured_font_pt	panel_labels	legend_placement	palette_check	claim_boundary_check	source_data_check	visual_status	action_required
-Figure 4	v0.1	TRUE	TRUE	TRUE	600	8	A-G present	outside dense data panels	pass_semantic_teal_amber_terracotta	pass_attenuated_bulk_context	pass	requires_rendered_agent_and_human_review	Inspect PDF/PNG at full size and 50% scale before accepting draft.

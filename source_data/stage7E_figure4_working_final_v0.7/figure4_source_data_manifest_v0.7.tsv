@@ -1,7 +1,0 @@
-panel	source_data_file	source_exists	row_count_if_readable	column_count_if_readable	data_changed_from_v0.6	claim_changed_from_v0.6	ready_for_publication_source_data	notes
-A	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelA_source.tsv	yes	29	9	no	no	yes	Counts derived from locked patient-level provenance.
-B	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelB_source.tsv	yes	104	13	no	no	yes	All 104 paired-delta values retained.
-C	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelC_source.tsv	yes	4	18	no	no	yes	All four model estimates retained.
-D	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelF_source.tsv	yes	12	17	no	no	yes	All 12 rho values retained; FDR values remain in Source Data and the legend.
-E	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelC_source.tsv;results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelE_source.tsv	yes	4;20	18;7	no	no	yes	Paired effects and all source-backed adjustment outcome counts retained.
-F	results/tables/revision/stage5C1_gse73680_figure4_draft/figure4_panelG_source.tsv;results/tables/revision/stage5C1_gse73680_figure4_draft/gse73680_final_claim_lock_stage5C1.tsv	yes	6;7	5;6	no	no	yes	Boundary wording condensed without upgrading the evidence class.

@@ -1,0 +1,8 @@
+figure_panel	source_data_file	source_analysis_step	description	required_for_reproducibility	notes
+A	results/tables/phase2_step2_compartment_summary.tsv	Phase 2-Step 2	Compartment nuclei and donor coverage summary.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+B	source_data/figures/phase2_step2_umap_source_data.tsv.gz	Phase 2-Step 2	UMAP coordinates with donor and compartment metadata.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+C	source_data/figures/phase2_step2_loop_tal_marker_dotplot_source_data.tsv	Phase 2-Step 2	Marker percent-expressing and average-expression by compartment.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+D	source_data/figures/phase2_step2_donor_compartment_module_heatmap_source_data.tsv	Phase 2-Step 2	Donor x compartment module score source data.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+E	source_data/figures/phase2_step3_matched_random_distribution_source_data.tsv.gz	Phase 2-Step 3	Matched random distributions and observed statistics.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+F	source_data/figures/phase2_step4_original_vs_driver_removed_source_data.tsv	Phase 2-Step 4	Original versus driver-removed Loop/TAL contrast values.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.
+G	notes/phase2_step5_figure2_legend.md	Phase 2-Step 5	Claim boundary text and figure legend.	yes	Traceable to Phase 2 canonical outputs; no deprecated old Figure 2 source data used.

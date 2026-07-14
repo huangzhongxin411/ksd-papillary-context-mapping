@@ -1,0 +1,6 @@
+gene_set_name	definition	n_genes	expected_n_from_manuscript	match_to_manuscript	output_file	notes
+MAGMA_top50	Top 50 genes by ascending MAGMA P value.	50	50	yes	results/phase1_step3_magma_gene_sets/MAGMA_top50.txt	Derived directly from locked canonical MAGMA .genes.out; no MAGMA rerun.
+MAGMA_top100	Top 100 genes by ascending MAGMA P value.	100	100	yes	results/phase1_step3_magma_gene_sets/MAGMA_top100.txt	Derived directly from locked canonical MAGMA .genes.out; no MAGMA rerun.
+MAGMA_Bonferroni	MAGMA P < 0.05/17316 (2.8875029e-06).	94	94	yes	results/phase1_step3_magma_gene_sets/MAGMA_Bonferroni.txt	Derived directly from locked canonical MAGMA .genes.out; no MAGMA rerun.
+MAGMA_FDR05	Benjamini-Hochberg adjusted MAGMA P < 0.05 across all tested genes.	369	369	yes	results/phase1_step3_magma_gene_sets/MAGMA_FDR05.txt	Derived directly from locked canonical MAGMA .genes.out; no MAGMA rerun.
+MAGMA_suggestive_p1e4	MAGMA P < 1e-4.	187	187	yes	results/phase1_step3_magma_gene_sets/MAGMA_suggestive_p1e4.txt	Derived directly from locked canonical MAGMA .genes.out; no MAGMA rerun.

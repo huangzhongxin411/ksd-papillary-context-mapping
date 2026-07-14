@@ -1,8 +1,0 @@
-Stage 5B1 GSE73680 paired module-response and composition-signature scoring
-Started: 2026-06-26 11:28:54 CST 
-
-Wrote Stage 5B1 outputs to docs/revision/stage5B1_gse73680_module_response and results/tables/revision/stage5B1_gse73680_module_response 
-Transform decision: log2_x_plus_1_applied 
-Paired patients: 26 
-Primary direction: directionally increasing 
-Completed: 2026-06-26 11:28:55 CST 

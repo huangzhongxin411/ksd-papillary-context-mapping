@@ -1,0 +1,16 @@
+module_name	adjustment_model	adjusted_group_coefficient	adjusted_p_value	adjusted_fdr_within_model_family	attenuation_class	model_label	module_label
+MAGMA_top50	base_unadjusted	0.170412678077428	0.0823578410385841	0.0823578410385841	base	Base	Top 50
+MAGMA_top100	base_unadjusted	0.169086129009649	0.0538124781711585	0.071294375225806	base	Base	Top 100
+MAGMA_Bonferroni	base_unadjusted	0.17423017748957	0.0570355001806448	0.071294375225806	base	Base	Bonferroni
+MAGMA_FDR05	base_unadjusted	0.172126461072211	0.0384243004957732	0.071294375225806	base	Base	FDR 0.05
+MAGMA_suggestive_p1e4	base_unadjusted	0.173421603305168	0.0492445152631739	0.071294375225806	base	Base	Suggestive
+MAGMA_Bonferroni	single_injury_KIM1_LCN2_like	0.0515728844458155	0.581143420167143	0.726429275208929	strongly_attenuated	Injury	Bonferroni
+MAGMA_FDR05	single_injury_KIM1_LCN2_like	0.0692566088134295	0.421552385263093	0.726429275208929	attenuated_but_retained	Injury	FDR 0.05
+MAGMA_suggestive_p1e4	single_injury_KIM1_LCN2_like	0.0661768465068685	0.47253085302275	0.726429275208929	attenuated_but_retained	Injury	Suggestive
+MAGMA_top100	single_injury_KIM1_LCN2_like	0.0504877628699037	0.571342457136262	0.726429275208929	strongly_attenuated	Injury	Top 100
+MAGMA_top50	single_injury_KIM1_LCN2_like	0.0260575094024567	0.790014586032199	0.790014586032199	strongly_attenuated	Injury	Top 50
+MAGMA_Bonferroni	compact_injury_KIM1_LCN2_like_plus_fibrosis_remodeling	0.0393477398687479	0.659906696905322	0.824883371131653	strongly_attenuated	Injury + fibrosis	Bonferroni
+MAGMA_FDR05	compact_injury_KIM1_LCN2_like_plus_fibrosis_remodeling	0.0553279887529721	0.484273323011726	0.824883371131653	attenuated_but_retained	Injury + fibrosis	FDR 0.05
+MAGMA_suggestive_p1e4	compact_injury_KIM1_LCN2_like_plus_fibrosis_remodeling	0.0513425240946478	0.544285305681719	0.824883371131653	strongly_attenuated	Injury + fibrosis	Suggestive
+MAGMA_top100	compact_injury_KIM1_LCN2_like_plus_fibrosis_remodeling	0.0384826925033087	0.650513580801414	0.824883371131653	strongly_attenuated	Injury + fibrosis	Top 100
+MAGMA_top50	compact_injury_KIM1_LCN2_like_plus_fibrosis_remodeling	0.0220373114922211	0.824965204151615	0.824965204151615	strongly_attenuated	Injury + fibrosis	Top 50

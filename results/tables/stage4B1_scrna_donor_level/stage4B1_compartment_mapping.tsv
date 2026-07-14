@@ -1,7 +1,0 @@
-original_label	broad_compartment	n_nuclei	n_donors_detected	mapping_rule	notes
-Collecting_duct_principal	Collecting_duct_principal	34849	4	phase1_cell_type used directly as broad compartment	no relabeling performed
-Endothelial	Endothelial	2558	4	phase1_cell_type used directly as broad compartment	no relabeling performed
-Fibroblast_stromal	Fibroblast_stromal	3422	4	phase1_cell_type used directly as broad compartment	no relabeling performed
-Injured_undifferentiated_epithelial	Injured_undifferentiated_epithelial	2361	4	phase1_cell_type used directly as broad compartment	no relabeling performed
-Loop_of_Henle_TAL	Loop_of_Henle_TAL	540	4	phase1_cell_type used directly as broad compartment	Loop/TAL label preserved exactly
-Pericyte_smooth_muscle	Pericyte_smooth_muscle	148	3	phase1_cell_type used directly as broad compartment	no relabeling performed

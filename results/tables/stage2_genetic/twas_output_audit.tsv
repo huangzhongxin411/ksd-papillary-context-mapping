@@ -1,2 +1,0 @@
-file_path	twas_method	reference_tissue	n_genes_tested	n_fdr_significant	n_magma_overlap	n_multi_snp_fdr_significant	n_one_snp_fdr_significant	current_exemplar_overlap_count	has_model_snp_count_column	has_effect_direction	has_required_columns	notes
-results/tables/supplementary_table_spredixcan_all_results_v0.1.tsv	S-PrediXcan	GTEx_v8_Kidney_Cortex	5989	51	47	9	42	0	yes	yes	yes	Kidney_Cortex proxy only; not papilla-specific causal evidence

@@ -1,0 +1,10 @@
+figure_panel	source_data_file	description	required_for_reproducibility	notes
+Figure3_A	results/tables/phase4_step2_repaired_reporting_group_definitions.tsv	Parallel evidence layer definitions and allowed claims.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+Figure3_B	results/tables/phase4_step3_figure3_candidate_matrix_row_selection.tsv	Selected representative rows for compact candidate evidence matrix.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+Figure3_C	source_data/figures/phase4_step2_Figure3_source_data_twas_burden.tsv	TWAS FDR and one-/multi-SNP burden.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+Figure3_D	source_data/figures/phase4_step2_Figure3_source_data_reporting_group_counts.tsv	R1-R6 reporting group counts.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+Figure3_E	notes/phase4_step3_figure3_final_panel_plan.md	Claim boundary text.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+SuppFig_TWAS_A_B	source_data/figures/phase4_step2_Figure3_source_data_twas_burden.tsv	TWAS burden bars.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+SuppFig_TWAS_C	results/tables/phase4_step1_magma_twas_overlap_summary.tsv	MAGMA-TWAS overlap by module.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+SuppFig_TWAS_D	results/tables/phase4_step2_twas_downgrade_audit.tsv	TWAS downgrade/proxy status summary.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.
+SuppFig_full_matrix	supplement/phase4_step3_full_candidate_evidence_matrix.tsv	Full repaired candidate evidence matrix.	yes	All panels use locked Phase 4-Step 2 source data; no TWAS, SMR/coloc or bulk analyses were run.

@@ -1,6 +1,0 @@
-resource	found	file_path	required_columns_present	blocking_issue	recommended_action
-original_59_locus_list	no	NA_not_found	no	original_59_locus_list not found	Provide or locate source table
-current_57_reconstructed_loci	yes	results/tables/phase1_2025_loci.tsv	yes		Use for reconciliation
-lead_snp_table	yes	results/tables/phase1_2025_lead_snps.tsv	yes		Use for reconciliation
-clumped_snp_or_locus_table	no	NA_not_found	no	clumped_snp_or_locus_table not found	Provide or locate source table
-manhattan_source_data	yes	results/tables/figure1_real_manhattan_card_points.tsv	yes		Use for reconciliation

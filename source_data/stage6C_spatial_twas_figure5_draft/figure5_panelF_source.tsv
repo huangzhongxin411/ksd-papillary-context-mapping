@@ -1,7 +1,0 @@
-display_order	statement	statement_display	statement_type	notes
-1	Moderate supplementary spatial context	Moderate supplementary | spatial context	allowed	Overall Stage 6C support ceiling.
-2	Loop/TAL-associated tissue-context projection	Loop/TAL-associated | tissue-context projection	allowed	Only spatial context retained after adjustment.
-3	No plaque ROI	No plaque ROI	boundary	No plaque/mineral/lesion/fibrosis ROI annotation.
-4	Not plaque-specific validation	Not plaque-specific | validation	forbidden	Spatial projection is not validation.
-5	Not causal spatial niche	Not causal | spatial niche	forbidden	No causal or plaque-nucleation inference.
-6	TWAS = Kidney_Cortex proxy	TWAS = Kidney_Cortex | proxy	boundary	GTEx tissue proxy, not papilla-specific regulation.

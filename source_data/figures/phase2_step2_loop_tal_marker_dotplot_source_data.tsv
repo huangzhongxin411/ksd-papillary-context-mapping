@@ -1,0 +1,55 @@
+gene	compartment	present_in_object	percent_expressing	average_expression	n_nuclei	mean_rank_desc	highest_or_enriched_expression_in_loop_tal	notes
+UMOD	Collecting_duct_principal	TRUE	5.6989	0.119320382707323	34849	5	FALSE	Descriptive marker summary only.
+UMOD	Fibroblast_stromal	TRUE	14.0561	0.187613322114789	3422	4	FALSE	Descriptive marker summary only.
+UMOD	Endothelial	TRUE	7.2713	0.0894237105284964	2558	6	FALSE	Descriptive marker summary only.
+UMOD	Injured_undifferentiated_epithelial	TRUE	38.0771	1.00292576563513	2361	2	FALSE	Descriptive marker summary only.
+UMOD	Pericyte_smooth_muscle	TRUE	16.8919	0.208748190151774	148	3	FALSE	Descriptive marker summary only.
+UMOD	Loop_of_Henle_TAL	TRUE	69.6296	1.64605357247974	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+SLC12A1	Collecting_duct_principal	TRUE	5.894	0.103824751228269	34849	5	FALSE	Descriptive marker summary only.
+SLC12A1	Fibroblast_stromal	TRUE	12.2443	0.155639870887636	3422	4	FALSE	Descriptive marker summary only.
+SLC12A1	Endothelial	TRUE	7.6231	0.0864965918124212	2558	6	FALSE	Descriptive marker summary only.
+SLC12A1	Injured_undifferentiated_epithelial	TRUE	27.9543	0.762182233118748	2361	2	FALSE	Descriptive marker summary only.
+SLC12A1	Pericyte_smooth_muscle	TRUE	14.1892	0.162902951393737	148	3	FALSE	Descriptive marker summary only.
+SLC12A1	Loop_of_Henle_TAL	TRUE	98.3333	3.45265285969388	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+CLDN10	Collecting_duct_principal	TRUE	15.6791	0.280992910711543	34849	3	FALSE	Descriptive marker summary only.
+CLDN10	Fibroblast_stromal	TRUE	12.3027	0.17695004827802	3422	4	FALSE	Descriptive marker summary only.
+CLDN10	Endothelial	TRUE	10.2815	0.13436916904057	2558	6	FALSE	Descriptive marker summary only.
+CLDN10	Injured_undifferentiated_epithelial	TRUE	20.9233	0.389913526133586	2361	2	FALSE	Descriptive marker summary only.
+CLDN10	Pericyte_smooth_muscle	TRUE	12.8378	0.13974843828137	148	5	FALSE	Descriptive marker summary only.
+CLDN10	Loop_of_Henle_TAL	TRUE	71.4815	1.09326925822337	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+KCNJ1	Collecting_duct_principal	TRUE	1.2052	0.0205824757335622	34849	3	FALSE	Descriptive marker summary only.
+KCNJ1	Fibroblast_stromal	TRUE	1.841	0.0205596337159321	3422	4	FALSE	Descriptive marker summary only.
+KCNJ1	Endothelial	TRUE	1.1337	0.0100213123481055	2558	6	FALSE	Descriptive marker summary only.
+KCNJ1	Injured_undifferentiated_epithelial	TRUE	4.1508	0.0794598996554727	2361	2	FALSE	Descriptive marker summary only.
+KCNJ1	Pericyte_smooth_muscle	TRUE	2.027	0.0137689075901042	148	5	FALSE	Descriptive marker summary only.
+KCNJ1	Loop_of_Henle_TAL	TRUE	61.8519	0.920000601632527	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+CLDN16	Collecting_duct_principal	TRUE	4.6658	0.0564919716440335	34849	3	FALSE	Descriptive marker summary only.
+CLDN16	Fibroblast_stromal	TRUE	1.1397	0.0141132326971531	3422	5	FALSE	Descriptive marker summary only.
+CLDN16	Endothelial	TRUE	1.5637	0.0173554520963653	2558	4	FALSE	Descriptive marker summary only.
+CLDN16	Injured_undifferentiated_epithelial	TRUE	5.4638	0.0727923153699549	2361	2	FALSE	Descriptive marker summary only.
+CLDN16	Pericyte_smooth_muscle	TRUE	0	0	148	6	FALSE	Descriptive marker summary only.
+CLDN16	Loop_of_Henle_TAL	TRUE	7.4074	0.0841641751218374	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+CLDN14	Collecting_duct_principal	TRUE	1.3372	0.0147415239767311	34849	4	FALSE	Descriptive marker summary only.
+CLDN14	Fibroblast_stromal	TRUE	0.3507	0.00362849734301349	3422	5	FALSE	Descriptive marker summary only.
+CLDN14	Endothelial	TRUE	2.9711	0.032173905859215	2558	2	FALSE	Descriptive marker summary only.
+CLDN14	Injured_undifferentiated_epithelial	TRUE	1.6518	0.0206797256074921	2361	3	FALSE	Descriptive marker summary only.
+CLDN14	Pericyte_smooth_muscle	TRUE	0.6757	0.00279431766137097	148	6	FALSE	Descriptive marker summary only.
+CLDN14	Loop_of_Henle_TAL	TRUE	41.1111	0.537357770478667	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+CASR	Collecting_duct_principal	TRUE	3.5152	0.0529728842004045	34849	5	FALSE	Descriptive marker summary only.
+CASR	Fibroblast_stromal	TRUE	15.6634	0.214036917401448	3422	2	FALSE	Descriptive marker summary only.
+CASR	Endothelial	TRUE	2.2674	0.0255742499960919	2558	6	FALSE	Descriptive marker summary only.
+CASR	Injured_undifferentiated_epithelial	TRUE	2.4989	0.0540728490958788	2361	4	FALSE	Descriptive marker summary only.
+CASR	Pericyte_smooth_muscle	TRUE	6.0811	0.0889344793771188	148	3	FALSE	Descriptive marker summary only.
+CASR	Loop_of_Henle_TAL	TRUE	84.6296	1.6742806260509	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+PKD2	Collecting_duct_principal	TRUE	40.1561	0.678045160804651	34849	5	FALSE	Descriptive marker summary only.
+PKD2	Fibroblast_stromal	TRUE	52.9223	0.842377965113989	3422	4	FALSE	Descriptive marker summary only.
+PKD2	Endothelial	TRUE	55.2776	0.943314739571138	2558	2	FALSE	Descriptive marker summary only.
+PKD2	Injured_undifferentiated_epithelial	TRUE	29.3943	0.524814680433882	2361	6	FALSE	Descriptive marker summary only.
+PKD2	Pericyte_smooth_muscle	TRUE	59.4595	0.94218495928458	148	3	FALSE	Descriptive marker summary only.
+PKD2	Loop_of_Henle_TAL	TRUE	73.7037	1.1213711171622	540	1	TRUE	Loop/TAL has the highest average expression descriptively.
+HIBADH	Collecting_duct_principal	TRUE	23.6277	0.327961535563454	34849	4	FALSE	Descriptive marker summary only.
+HIBADH	Fibroblast_stromal	TRUE	29.3396	0.402626362300108	3422	3	FALSE	Descriptive marker summary only.
+HIBADH	Endothelial	TRUE	22.3221	0.298919753201938	2558	5	FALSE	Descriptive marker summary only.
+HIBADH	Injured_undifferentiated_epithelial	TRUE	17.5349	0.2624160168558	2361	6	FALSE	Descriptive marker summary only.
+HIBADH	Pericyte_smooth_muscle	TRUE	45.9459	0.674997504857337	148	2	FALSE	Descriptive marker summary only.
+HIBADH	Loop_of_Henle_TAL	TRUE	77.5926	1.35391839007609	540	1	TRUE	Loop/TAL has the highest average expression descriptively.

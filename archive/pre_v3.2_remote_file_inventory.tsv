@@ -1,0 +1,575 @@
+file_path	git_object_type	size_bytes	deprecated_for_v3.2	notes
+.zenodo.json	blob	2739	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+CITATION.cff	blob	1414	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+DATA_AVAILABILITY.md	blob	994	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+LICENSE	blob	140	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+LICENSE-CODE	blob	1153	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+LICENSE-DATA	blob	514	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+MANIFEST.tsv	blob	139744	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+README.md	blob	2820	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+REPRODUCIBILITY.md	blob	2713	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/datasets.tsv	blob	1855	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gse231569_cluster_to_celltype.tsv	blob	8630	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gse231569_cluster_to_celltype_audited.tsv	blob	7647	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gse73680_sample_metadata.tsv	blob	75	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gse73680_sample_metadata_curated.tsv	blob	16709	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gwas_column_aliases.tsv	blob	623	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/gwas_sources.tsv	blob	1153	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+config/spatial_sample_metadata.tsv	blob	534	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+docs	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+docs/README_supplementary_files.md	blob	970	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+docs/reproducibility_summary_v1.md	blob	4582	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+docs/supplementary_methods_v0.2.md	blob	11659	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+docs/supplementary_tables_manifest_v0.2.tsv	blob	4298	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+environment	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+environment/ENVIRONMENT_STATUS.md	blob	618	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+environment/README_environment.md	blob	819	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+environment/R_sessionInfo.txt	blob	588	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+environment/python_requirements.txt	blob	235	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure1.pdf	blob	1164165	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure1_editable.svg	blob	283131	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure1_preview_300dpi.png	blob	632354	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure2.pdf	blob	6276038	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure2_editable.svg	blob	17646271	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure2_preview_300dpi.png	blob	1006944	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure3.pdf	blob	12369	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure3_editable.svg	blob	43896	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure3_preview_300dpi.png	blob	700857	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure4.pdf	blob	24086	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure4_editable.svg	blob	95242	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure4_preview_300dpi.png	blob	884678	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure5.pdf	blob	18273	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure5_editable.svg	blob	59608	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+figures/Figure5_preview_300dpi.png	blob	848852	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage2A_2B_genetic_audit.log	blob	30	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage2B_R_reproducibility_patch.log	blob	30	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage5B1_gse73680_module_response.log	blob	394	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage5B2_gse73680_composition_adjusted_analysis.log	blob	327	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage6B1_spatial_context_projection.log	blob	1387	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+logs/stage7I_generation_log.tsv	blob	356	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/candidate_gene_evidence_skeleton.tsv	blob	32676	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/genetic_file_inventory.tsv	blob	1496101	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/gwas_loci_reconciliation_input_audit.tsv	blob	598	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/gwas_qc_manifest.tsv	blob	2304	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/magma_gene_sets_manifest.tsv	blob	532	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/magma_output_audit.tsv	blob	1048	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/magma_reproducibility_file_evidence.tsv	blob	3554	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/smr_coloc_feasibility.tsv	blob	19214	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/twas_one_snp_model_audit.tsv	blob	808711	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage2_genetic/twas_output_audit.tsv	blob	442	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/candidate_gene_decision_log_v0.2.tsv	blob	69118	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/candidate_gene_evidence_model_v0.2.tsv	blob	97718	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/curated_exemplar_panel_v0.2.tsv	blob	4255	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/evidence_model_summary_counts_v0.2.tsv	blob	1002	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/stage3R_gene_uniqueness_audit.tsv	blob	27803	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage3R_gene_tiering/stage3R_input_schema_audit.tsv	blob	1543	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/evidence_model_with_stage4B1_scrna_context_v0.1.tsv	blob	116690	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/figure2_stage4B1_source_donor_scores.tsv	blob	75949	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/figure2_stage4B1_source_loop_tal_ranks.tsv	blob	8429	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/figure3_stage4B1_source_exemplar_detection.tsv	blob	8440	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_candidate_gene_detection_summary.tsv	blob	74473	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_donor_compartment_module_scores.tsv	blob	75949	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_leave_one_donor_out_module_ranks.tsv	blob	9804	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_loop_tal_donor_consistency_summary.tsv	blob	3837	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_loop_tal_within_donor_rank.tsv	blob	8429	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/scrna_low_loop_tal_count_sensitivity.tsv	blob	2797	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/stage4B1_compartment_mapping.tsv	blob	853	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/stage4B1_gene_module_manifest.tsv	blob	8138	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B1_scrna_donor_level/stage4B1_metadata_validation.tsv	blob	737	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/evidence_model_with_stage4B2_scrna_robustness_v0.1.tsv	blob	142139	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/figure2_source_claim_decision.tsv	blob	3446	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/figure2_source_driver_removal.tsv	blob	10958	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/figure2_source_random_benchmark.tsv	blob	4833	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/loop_tal_claim_decision_table.tsv	blob	3446	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/random_set_matching_design.tsv	blob	3649	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/scrna_gene_contribution_to_loop_tal_signal.tsv	blob	59325	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/scrna_gene_matching_universe.tsv	blob	6107954	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/scrna_known_driver_removal_sensitivity.tsv	blob	10958	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/scrna_random_set_benchmark_donor_detail.tsv	blob	7076	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/scrna_random_set_benchmark_summary.tsv	blob	4833	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/stage4B2_input_consistency_check.tsv	blob	1278	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage4B2_scrna_robustness/stage4B2_module_priority_table.tsv	blob	2692	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_expression_scale_audit.tsv	blob	1522	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_module_response_model.tsv	blob	7664	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_module_signature_correlation.tsv	blob	27845	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_paired_module_delta.tsv	blob	125328	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_paired_module_delta_summary.tsv	blob	6104	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_sample_module_scores.tsv	blob	326706	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_sample_qc_metrics.tsv	blob	13716	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_signature_response_summary.tsv	blob	3798	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_stage5B1_claim_decision_table.tsv	blob	2138	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_stage5B1_pairing_summary.tsv	blob	5937	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/gse73680_stage5B1_sample_inclusion.tsv	blob	11478	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/stage5B1_input_consistency_check.tsv	blob	1230	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B1_gse73680_module_response/stage5B1_module_manifest.tsv	blob	2835	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_adjustment_retention_summary.tsv	blob	1361	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_delta_adjusted_compact_models.tsv	blob	5384	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_delta_adjusted_single_covariate_models.tsv	blob	9183	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_injury_remodeling_coupling_interpretation.tsv	blob	2703	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_patient_fixed_effect_adjusted_models.tsv	blob	7498	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_signature_collinearity_diagnostics.tsv	blob	15190	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_signature_priority_for_adjustment.tsv	blob	2477	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/gse73680_stage5B2_claim_decision_table.tsv	blob	3711	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/stage5B2_covariate_set_manifest.tsv	blob	2745	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage5B2_gse73680_composition_adjusted/stage5B2_input_consistency_check.tsv	blob	1480	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_module_manifest_stage6B1.tsv	blob	3111	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_section_level_consistency_summary.tsv	blob	7731	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_section_module_score_summary.tsv	blob	25547	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_section_qc_stage6B1.tsv	blob	951	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_spot_module_scores.tsv	blob	51289748	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_spot_module_scores_residualized.tsv	blob	38239348	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_stage6B1_claim_decision_table.tsv	blob	3364	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/spatial_within_section_codistribution.tsv	blob	49993	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+results/tables/stage6B1_spatial_context_projection/stage6B1_input_consistency_check.tsv	blob	6465	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/00_download_phase1_gwas.sh	blob	450	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/00_setup	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/00_setup/check_figure_dependencies.R	blob	1291	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/00_setup/check_figure_dependencies_v0.2.R	blob	2098	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/README.md	blob	779	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/README_phase1_commands.md	blob	919	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/inspect_gwas_columns.py	blob	2505	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/phase1_gwas_sanity_check.R	blob	4397	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/plot_phase1_gwas_qc.R	blob	1747	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/qc_gwas_sumstats.py	blob	8269	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/run_phase1_inspect_2025.sh	blob	340	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/01_gwas_qc/verify_phase1_gwas_file.sh	blob	1061	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/02_locus_mapping	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/02_locus_mapping/README.md	blob	1246	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/02_locus_mapping/make_phase1_gene_sets.py	blob	1339	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/02_locus_mapping/make_phase1_leads_loci.py	blob	4707	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/02_locus_mapping/map_phase1_candidate_genes.py	blob	6154	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/20_magma_pathway_enrichment.R	blob	11601	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/21_pathway_enrichment_audit.R	blob	4549	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/MAGMA_STATUS.md	blob	3075	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/README.md	blob	466	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/deduplicate_magma_input.py	blob	4094	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/make_candidate_gene_tiers_v0.1.R	blob	5712	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/make_magma_freeze_summaries.R	blob	7194	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/postprocess_magma_genes.R	blob	4492	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/prepare_magma_inputs.R	blob	799	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/run_magma_gene_analysis.sh	blob	1337	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/03_magma_fuma/run_magma_input_qc.sh	blob	962	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/00_check_phase2b_inputs.sh	blob	569	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/01_check_twas_resources.R	blob	3558	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/01_make_twas_resource_manifest.R	blob	2794	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/02_check_twas_harmonization.R	blob	1857	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/03_make_twas_resource_manifest_v2.R	blob	10581	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/README.md	blob	462	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/01_check_fusion_resources.sh	blob	1709	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/02_make_fusion_sumstats.R	blob	1492	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/02_smoke_test_fusion.sh	blob	507	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/03_run_fusion_per_tissue.sh	blob	1599	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/04_run_fusion_all_tissues.sh	blob	326	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/fusion/05_summarize_fusion_results.R	blob	3735	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/integration	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/integration/01_integrate_magma_fusion_predixcan_scrna.R	blob	5661	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/predixcan	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/predixcan/01_check_predixcan_resources.sh	blob	1421	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/predixcan/02_smoke_test_spredixcan.sh	blob	493	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/predixcan/03_run_spredixcan_all_tissues.sh	blob	333	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/predixcan/04_summarize_spredixcan_results.R	blob	2580	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/04_twas/prepare_twas_input.R	blob	3848	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/01_check_eqtl_resources.R	blob	2863	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/01_prepare_eqtl_for_coloc.R	blob	613	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/02_run_coloc_per_locus.R	blob	2062	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/03_summarize_coloc_results.R	blob	1312	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/README.md	blob	487	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/prepare_coloc_execution_plan.R	blob	2878	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/05_smr_coloc/prepare_phase2c_resource_tables.R	blob	10211	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_scrna_processing	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_scrna_processing/30_rebuild_gse231569_seurat.R	blob	4046	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_scrna_processing/README.md	blob	1007	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_spatial	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_spatial/00_download_spatial_resources.sh	blob	521	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_spatial/01_detect_spatial_files.sh	blob	1445	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/06_spatial/02_inventory_spatial_inputs.R	blob	1996	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/20_magma_weighted_cell_score.R	blob	7506	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/21_loop_tal_influential_genes.R	blob	6167	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/22_magma_score_umap_projection.R	blob	10194	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/23_gse231569_donor_level_loop_tal_score_test.R	blob	4150	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/README.md	blob	510	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/audited_locus_driver_balanced_sensitivity.R	blob	9711	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/audited_locus_evidence_and_sensitivity.R	blob	9146	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/audited_locus_scrna_projection.R	blob	7083	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/freeze_phase3a_locus_driver_sensitivity.sh	blob	1993	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/gene_set_scrna_projection_audited.R	blob	3716	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/gse231569_marker_audit.R	blob	9742	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/magma_driver_balanced_sensitivity.R	blob	10499	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/magma_scrna_projection_benchmark.R	blob	9102	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/make_gse231569_audited_annotation_config.R	blob	2982	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/make_umod_locus_context_summary.R	blob	2228	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/p1_tal_gene_evidence_pack.R	blob	14032	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/phase1_gse231569_quick_projection.R	blob	7365	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/07_scrna_gene_mapping/phase1_scrna_pseudobulk_benchmark.R	blob	5641	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/00_download_gse73680.R	blob	7004	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/01_audit_gse73680_filelist.R	blob	5952	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/02_download_gse73680_supplementary.R	blob	4670	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/02b_download_gse73680_raw_tar.sh	blob	1082	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/02c_check_gse73680_raw_tar.sh	blob	941	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/02d_extract_gse73680_raw_tar.sh	blob	955	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/02e_validate_extracted_txtgz.sh	blob	718	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/03_inspect_gse73680_txt_format.R	blob	7513	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/04_build_gse73680_expression_matrix.R	blob	6265	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/05_map_gse73680_features_to_genes.R	blob	3392	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/06_curate_gse73680_metadata.R	blob	4393	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/07_qc_gse73680_expression.R	blob	4839	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/08_gse73680_gene_availability.R	blob	3002	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/09_make_gse73680_analysis_readiness_memo.R	blob	5084	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/10_define_gse73680_design.R	blob	5545	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/11_run_gse73680_p1_gene_response.R	blob	6630	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/12_run_gse73680_module_score_response.R	blob	8216	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/13_run_gse73680_injury_correlation.R	blob	3214	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/14_run_gse73680_random_module_benchmark.R	blob	3987	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/15_summarize_gse73680_disease_context.R	blob	10019	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/15b_make_gse73680_exact_statistics_summary.R	blob	4244	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/16_module_leave_one_gene_out.R	blob	4572	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/17_magma_without_p1_sensitivity.R	blob	3352	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/18_expression_matched_random_benchmark.R	blob	4726	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/19_paired_direction_consistency.R	blob	3722	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/20_plot_gse73680_paired_spaghetti.R	blob	6212	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/20_summarize_gse73680_robustness.R	blob	7073	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/21_gse73680_module_injury_correlation.R	blob	10319	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_plaque_context/23_gse73680_risk_injury_correlation_robustness.R	blob	7019	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_spatial	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_spatial/prepare_spatial_prep_tables.R	blob	5462	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_spatial_analysis	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_spatial_analysis/01_detect_spatial_files.R	blob	1812	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/08_spatial_analysis/README.md	blob	441	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_bulk_plaque_context	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_bulk_plaque_context/24_gse73680_integrated_plaque_context.R	blob	2192	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_bulk_plaque_context/README.md	blob	473	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase18a_mockup.py	blob	13670	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase18b_cited_manuscript.py	blob	26750	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase18cd_package.py	blob	43119	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase19_package.py	blob	31554	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase20_precheck.py	blob	17605	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/build_phase21_submission_package.py	blob	24307	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_evidence_map_final_candidate.R	blob	20467	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_evidence_map_real_manhattan_restored.R	blob	22063	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_evidence_map_v1.2.1.R	blob	19388	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_evidence_map_v1.2.2.R	blob	19395	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_evidence_map_v1.2.R	blob	19273	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_framework_refined_v1.2.R	blob	14285	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_highimpact_polish_20260622.R	blob	22002	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_image2style_v1.0.R	blob	18869	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_image2style_v1.1.R	blob	19119	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure1_sketch_reconstructed_svg_v1.3.R	blob	16903	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2_gwas_magma_scrna_localization_v1.0.1.R	blob	16616	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2_gwas_magma_scrna_localization_v1.0.2.R	blob	16709	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2_gwas_magma_scrna_localization_v1.0.3.R	blob	16692	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2_gwas_magma_scrna_localization_v1.0.R	blob	16569	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2_highimpact_polish_20260622.R	blob	16701	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure2a_ksd_gwas_manhattan_publication.R	blob	7820	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_highimpact_polish_20260622.R	blob	18362	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.1.R	blob	17495	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.2.R	blob	17153	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.3.R	blob	17147	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.4.R	blob	17189	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.5.R	blob	17128	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.0.R	blob	17151	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_p1_gene_evidence_v1.1.R	blob	17717	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_v0.2_results_v0.3.R	blob	15052	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_v0.3_results_v0.4.R	blob	12798	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure3_v0.4_results_v0.5.R	blob	13102	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_final.R	blob	15780	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.1.R	blob	7092	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.2.R	blob	7220	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.3.R	blob	7387	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.4.R	blob	8052	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.5.R	blob	8217	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v0.6.R	blob	9537	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v1.0.1.R	blob	16564	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v1.0.2.R	blob	16616	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v1.0.R	blob	16294	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure4_gse73680_disease_context_v1.1.R	blob	16490	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure5_functional_context_final.R	blob	12303	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure5_functional_context_final_v2.R	blob	13219	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure5_functional_context_v1.0.R	blob	10214	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_theme_final_candidate.R	blob	4283	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_theme_highimpact_v0.1.R	blob	3984	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_theme_highimpact_v0.2.R	blob	4708	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_theme_highimpact_v0.3.R	blob	8071	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_visual_qc.R	blob	1202	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/figure_visual_qc_v0.2.R	blob	1607	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/freeze_and_figure3_v0.1.R	blob	25934	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase10_11_candidate_tiering_and_package_v0.1.R	blob	7913	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase10_convergence_v0.1.R	blob	25921	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase12_v1_convergence.R	blob	66800	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase12b_all_figures_revision.R	blob	22022	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase13_pre_submission_hardening.R	blob	47237	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase14_high_impact_figure_redesign.R	blob	37294	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase15_high_impact_harmonization.R	blob	44116	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase16_toy_demo_figure.R	blob	1651	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase16b_toy_demo_figure.R	blob	2234	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase16b_validate_skill.R	blob	1714	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase17a_figure1_graphical_abstract_v1.R	blob	12054	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase17a_rescue_figure1_evidence_map.R	blob	12540	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase17c_main_figure_harmonization.R	blob	48838	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase18_figure3_micro_polish.R	blob	17880	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase18_figure4_micro_polish.R	blob	15755	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase18_figure5_micro_polish.R	blob	13232	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase18_freeze_main_figures.R	blob	2230	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase18_main_figure_narrative_rebuild.R	blob	39325	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase6_hardening_v0.1.R	blob	43621	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase6_integration_tables.R	blob	5988	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase7_submission_package_v0.1.R	blob	44340	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase7b_figure2_consolidation_v0.1.R	blob	26467	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase7c_supervisor_package_v0.1.R	blob	25039	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase8_figure_expressiveness_upgrade_v0.1.R	blob	24675	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase9_figure_polish_and_v08_manuscript.R	blob	25159	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/phase9_manuscript_cleanup_v0.1.R	blob	3369	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/prepare_results_ready_outputs.R	blob	17174	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_dotplot_expression.R	blob	822	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_evidence_matrix.R	blob	1458	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_graphical_abstract.R	blob	1245	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_heatmap_compact.R	blob	800	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_lollipop.R	blob	645	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_lollipop_ranked.R	blob	677	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_spaghetti_paired.R	blob	1099	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_umap_highlight.R	blob	698	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/09_manuscript/templates/template_workflow_figure.R	blob	965	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/00_twas_resource_download_template.sh	blob	1000	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/01_run_spredixcan_priority_tissues.sh	blob	1693	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/02_integrate_twas_results.R	blob	3468	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/03_phase25b_resource_landing_status.R	blob	13895	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/04_download_or_unpack_mashr_eqtl.sh	blob	597	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/05_run_spredixcan_kidney_cortex_real.sh	blob	2757	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/06_summarize_spredixcan_kidney_cortex_real.R	blob	4214	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/07_make_predixcan_snp_map.py	blob	877	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/08_make_kidney_cortex_varid_gwas.py	blob	3194	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/09_phase25c_twas_qc_memo.R	blob	6386	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/10_phase25d_twas_hardening.R	blob	18786	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/11_phase26_safe_twas_integration.R	blob	27261	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/12_phase26b_twas_consistency_and_s6_polish.R	blob	24274	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/13_phase27a_smr_coloc_resource_audit.R	blob	21658	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/14_phase27b_smr_heidi_kidney_cortex.R	blob	16396	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/15_phase27b_rescue_smr_execution.R	blob	13834	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/16_phase27b_r2_docker_smr_boundary.R	blob	6903	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_high_impact_extensions/README_phase25.md	blob	1608	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_integrated_figures	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/10_integrated_figures/README.md	blob	527	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/00_phase28a_spatial_resource_audit.R	blob	13944	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/01_load_spatial_dataset_qc.R	blob	3620	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/02_phase28a_r_spatial_resource_recovery.R	blob	25796	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/03_audit_spatial_loading_dependencies.R	blob	1475	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/04_try_install_hdf5r.R	blob	1251	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/05_convert_10x_h5_to_mtx.py	blob	4096	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/06_load_gse206306_spatial_objects.R	blob	12826	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/07_define_spatial_signatures.R	blob	3319	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/07_phase28b_loading_rescue_memo.R	blob	3889	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/08_audit_spatial_signature_gene_overlap.R	blob	1977	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/09_compute_spatial_signature_scores.R	blob	3393	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/10_plot_spatial_signature_overlays.R	blob	4740	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/11_run_spatial_score_correlations.R	blob	2375	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/12_run_spatial_complexity_adjusted_correlations.R	blob	3524	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/13_summarize_spatial_projection_across_samples.R	blob	1706	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/14_audit_p1_spatial_expression.R	blob	3917	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/15_make_supplementary_figure_s7_spatial_projection.R	blob	6944	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/16_spatial_claim_gate.R	blob	8148	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/17_phase28d_spatial_claim_gate_reaudit.R	blob	4165	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/11_spatial/18_make_supplementary_figure_s7_final.R	blob	7912	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/README.md	blob	662	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage2_genetic	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage2_genetic/stage2A_2B_genetic_audit.py	blob	30516	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage2_genetic/stage2B_R_reproducibility_patch.py	blob	12234	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage3R_gene_tiering	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage3R_gene_tiering/stage3R_reasoning_enhanced_classification.py	blob	39080	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage3_gene_tiering	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage3_gene_tiering/stage3_evidence_classification.py	blob	20825	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4A_scrna_audit	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4A_scrna_audit/stage4A_scrna_resource_audit.R	blob	33599	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4B1_scrna_donor_level	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4B1_scrna_donor_level/stage4B1_scrna_donor_level_analysis.R	blob	32115	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4B2_scrna_robustness	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4B2_scrna_robustness/stage4B2_scrna_robustness_analysis.R	blob	42134	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C1_figure_claim_planning	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C1_figure_claim_planning/stage4C1_figure_claim_planning.R	blob	33936	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C2R_draft_figures_v0.2	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C2R_draft_figures_v0.2/stage4C2R_generate_draft_figures_v0.2.R	blob	30376	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C2_draft_figures	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage4C2_draft_figures/stage4C2_generate_draft_figures.R	blob	27605	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5A_gse73680_audit	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5A_gse73680_audit/stage5A_gse73680_audit.R	blob	35541	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5B1_gse73680_module_response	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5B1_gse73680_module_response/stage5B1_gse73680_module_response.R	blob	38924	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5B2_gse73680_composition_adjusted	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5B2_gse73680_composition_adjusted/stage5B2_gse73680_composition_adjusted_analysis.R	blob	39591	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5C1_gse73680_figure4_draft	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage5C1_gse73680_figure4_draft/stage5C1_generate_figure4_draft.R	blob	25867	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6A_spatial_twas_audit	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6A_spatial_twas_audit/stage6A_spatial_twas_audit.R	blob	28619	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6B1_spatial_context_projection	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6B1_spatial_context_projection/stage6B1_spatial_context_projection.R	blob	28064	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6C_spatial_twas_figure5_draft	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage6C_spatial_twas_figure5_draft/stage6C_generate_figure5_draft.R	blob	26359	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7A_manuscript_integration_blueprint	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7A_manuscript_integration_blueprint/stage7A_build_blueprint_tables.py	blob	27498	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7A_manuscript_integration_blueprint/stage7A_validate_blueprint.py	blob	4614	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7B_full_manuscript_draft	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7B_full_manuscript_draft/stage7B_build_supporting_tables.py	blob	17798	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7D_figures_supplementary_planning	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7D_figures_supplementary_planning/stage7D_build_assembly_manifests.py	blob	11590	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7D_figures_supplementary_planning/stage7D_generate_figure1.R	blob	16173	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7D_figures_supplementary_planning/stage7D_validate.py	blob	4391	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_editorial_redesign_v0.6	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_editorial_redesign_v0.6/stage7E_build_figure2_v0.6_tables.mjs	blob	7999	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_editorial_redesign_v0.6/stage7E_generate_figure2_v0.6.R	blob	19567	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_editorial_redesign_v0.6/stage7E_validate_figure2_v0.6.R	blob	7766	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_final_polish_v0.5	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_final_polish_v0.5/stage7E_build_figure2_v0.5_tables.mjs	blob	7247	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_final_polish_v0.5/stage7E_generate_figure2_v0.5.R	blob	19247	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_final_polish_v0.5/stage7E_validate_figure2_v0.5.R	blob	6577	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_layout_candidates_v0.8	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_layout_candidates_v0.8/stage7E_generate_figure2_layout_candidates_v0.8.R	blob	14957	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_production_proof_v0.7	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_production_proof_v0.7/stage7E_generate_figure2_v0.7.R	blob	19580	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_redesign_v0.4	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_redesign_v0.4/stage7E_build_figure2_v0.4_tables.mjs	blob	7112	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_redesign_v0.4/stage7E_generate_figure2_v0.4.R	blob	18941	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_redesign_v0.4/stage7E_validate_figure2_v0.4.R	blob	6038	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_refinement/stage7E_build_figure2_audit_tables_v0.3.mjs	blob	7166	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_refinement/stage7E_generate_figure2_v0.3.R	blob	15394	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_refinement/stage7E_validate_figure2_v0.3.R	blob	5363	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_v0.7R_author_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure2_v0.7R_author_refinement/stage7E_generate_figure2_v0.7R.R	blob	19876	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_data_enriched_v0.4	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_data_enriched_v0.4/stage7E_generate_figure3_v0.4.R	blob	12502	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_final_micro_polish_v0.6R2	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_final_micro_polish_v0.6R2/stage7E_generate_figure3_v0.6R2.R	blob	13988	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_graphical_flow_v0.5	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_graphical_flow_v0.5/stage7E_generate_figure3_v0.5.R	blob	12056	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_production_proof_v0.6R	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_production_proof_v0.6R/stage7E_generate_figure3_v0.6R.R	blob	14010	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_refinement/stage7E_generate_figure3_v0.3.R	blob	12804	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_true_evidence_flow_v0.6	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure3_true_evidence_flow_v0.6/stage7E_generate_figure3_v0.6.R	blob	13794	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_design_handoff	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_design_handoff/stage7E_export_figure4_panels.R	blob	18802	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_editorial_refinement_v0.3	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_editorial_refinement_v0.3/stage7E_generate_figure4_v0.3.R	blob	18804	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_final_polish_v0.4	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_final_polish_v0.4/stage7E_generate_figure4_v0.4.R	blob	18352	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_final_production_polish_v0.5	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_final_production_polish_v0.5/stage7E_generate_figure4_v0.5.R	blob	18917	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_lock_micro_polish_v0.6	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_lock_micro_polish_v0.6/stage7E_generate_figure4_v0.6.R	blob	18814	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_refinement_v0.2	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_refinement_v0.2/stage7E_generate_figure4_v0.2.R	blob	17781	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_working_final_v0.7	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure4_working_final_v0.7/stage7E_generate_figure4_v0.7.R	blob	18938	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_design_handoff	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_design_handoff/stage7E_export_figure5_handoff.R	blob	21162	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_evidence_weighted_v0.4	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_evidence_weighted_v0.4/stage7E_generate_figure5_v0.4.R	blob	20318	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_final_micro_polish_v0.6	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_final_micro_polish_v0.6/stage7E_generate_figure5_v0.6.R	blob	19839	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_final_polish_v0.3	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_final_polish_v0.3/stage7E_generate_figure5_v0.3.R	blob	19346	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_refinement_v0.2	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_refinement_v0.2/stage7E_generate_figure5_v0.2.R	blob	19041	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_targeted_polish_v0.5	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_figure5_targeted_polish_v0.5/stage7E_generate_figure5_v0.5.R	blob	19741	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_packaging_and_figure_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_packaging_and_figure_refinement/stage7E_generate_figure1_v0.2.R	blob	16620	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7E_packaging_and_figure_refinement/stage7E_validate.py	blob	8992	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7F_designer_artwork_brief	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7F_designer_artwork_brief/build_figures_2_to_5_review_docx.py	blob	11516	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7F_designer_artwork_brief/stage7F_build_artwork_tables.mjs	blob	22960	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+scripts/revision_utils/stage7F_designer_artwork_brief/stage7F_validate.py	blob	9227	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelA_source.tsv	blob	390	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelB_source.tsv	blob	28650	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelC_source.tsv	blob	3261	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelD_source.tsv	blob	3640	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelE_source.tsv	blob	2319	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelF_source.tsv	blob	6228	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure2_panelG_source.tsv	blob	3554	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure3_panelA_source.tsv	blob	597	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure3_panelB_source.tsv	blob	823	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure3_panelC_source.tsv	blob	351	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure3_panelD_source.tsv	blob	1355	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure3_panelE_source.tsv	blob	320	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage4C2R_draft_figures_v0.2/figure_source_data_manifest_v0.2.tsv	blob	3082	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelA_source.tsv	blob	6517	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelB_source.tsv	blob	24181	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelC_source.tsv	blob	1792	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelD_source.tsv	blob	4370	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelE_source.tsv	blob	2021	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelF_source.tsv	blob	6444	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_panelG_source.tsv	blob	811	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_source_data_manifest_v0.1.tsv	blob	2288	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/figure4_visual_qc_v0.1.tsv	blob	459	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage5C1_gse73680_figure4_draft/gse73680_final_claim_lock_stage5C1.tsv	blob	2134	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft	tree		yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelA_source.tsv	blob	1918	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelB_source.tsv	blob	1184422	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelC_source.tsv	blob	5003	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelD_source.tsv	blob	31359	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelE_source.tsv	blob	488	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_panelF_source.tsv	blob	767	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_source_data_manifest_v0.1.tsv	blob	1710	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/figure5_visual_qc_v0.1.tsv	blob	709	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage6C_spatial_twas_figure5_draft/spatial_twas_final_claim_lock_stage6C.tsv	blob	2658	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure2_v0.7R_author_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure2_v0.7R_author_refinement/figure2_author_refinement_log_v0.7R.tsv	blob	1025	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure2_v0.7R_author_refinement/figure2_display_label_mapping_v0.7R.tsv	blob	949	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure2_v0.7R_author_refinement/figure2_source_data_manifest_v0.7R.tsv	blob	1398	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure3_final_micro_polish_v0.6R2	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure3_final_micro_polish_v0.6R2/figure3_final_micro_polish_log_v0.6R2.tsv	blob	1308	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure3_final_micro_polish_v0.6R2/figure3_source_data_manifest_v0.6R2.tsv	blob	1370	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure4_working_final_v0.7	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure4_working_final_v0.7/figure4_micro_polish_change_log_v0.7.tsv	blob	1877	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure4_working_final_v0.7/figure4_source_data_manifest_v0.7.tsv	blob	1318	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure5_final_micro_polish_v0.6	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure5_final_micro_polish_v0.6/figure5_source_data_manifest_v0.6.tsv	blob	1380	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_figure5_final_micro_polish_v0.6/figure5_visual_polish_log_v0.6.tsv	blob	1592	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/figure1_panel_source_manifest_v0.2.tsv	blob	1665	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/figure_harmonization_action_log_v0.1.tsv	blob	1607	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/figures_1_to_5_visual_harmonization_checklist_v0.2.tsv	blob	3462	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/reference_verification_checklist_v0.2.tsv	blob	23747	review	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/source_data_draft_package_manifest_v0.1.tsv	blob	18206	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+source_data/stage7E_packaging_and_figure_refinement/supplementary_tables_draft_package_manifest_v0.1.tsv	blob	9524	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables	tree		review	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S10_p1_gene_paired_response.tsv	blob	1680	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S11_magma_module_response_and_robustness.tsv	blob	9290	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S12_functional_enrichment_and_curated_context_sets.tsv	blob	234618	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S13_resource_audit_and_reproducibility_summary.tsv	blob	18196	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S1_gwas_qc_summary.tsv	blob	904	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S2_lead_loci_reconstruction.tsv	blob	480198	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S3_magma_gene_results_and_gene_sets.tsv	blob	3195364	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S4_gse231569_sample_and_nuclei_qc.tsv	blob	4611	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S5_audited_cell_type_markers.tsv	blob	93408	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S6_magma_single_nucleus_benchmarks.tsv	blob	15395	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S7_p1_candidate_evidence.tsv	blob	3854	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S8_gse73680_metadata_and_inclusion.tsv	blob	30109	yes	public pre-sync tree inventory; not copied into allowlisted release candidate
+supplementary_tables/S9_gse73680_feature_reconstruction.tsv	blob	1312	yes	public pre-sync tree inventory; not copied into allowlisted release candidate

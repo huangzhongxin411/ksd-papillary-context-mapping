@@ -1,0 +1,7 @@
+figure_panel	source_data_file	source_analysis_step	description	required_for_reproducibility	notes
+Figure 4A	source_data/figures/phase5_step4_Figure4_panelA_source_data.tsv	Phase 5-Step 1/2	55 samples and 26 complete pairs support a paired disease-context design	yes	Processed bulk; filename-derived labels; disease-context only
+Figure 4B	source_data/figures/phase5_step4_Figure4_panelB_source_data.tsv	Phase 5-Step 2	Selected canonical modules show modest paired positive shifts	yes	Module-level consistency, not causal validation
+Figure 4C	source_data/figures/phase5_step4_Figure4_panelC_source_data.tsv	Phase 5-Step 2	Base coefficients are positive but all cross-module FDR values exceed 0.05	yes	Nominal/borderline evidence, not independent validation
+Figure 4D	source_data/figures/phase5_step4_Figure4_panelD_source_data.tsv	Phase 5-Step 3	Selected tissue-state proxies shift in disease-context samples	yes	Expression proxies, not cell fractions
+Figure 4E	source_data/figures/phase5_step4_Figure4_panelE_source_data.tsv	Phase 5-Step 3	Module-score changes covary with broad tissue-state changes	yes	Non-causal correlation
+Figure 4F	source_data/figures/phase5_step4_Figure4_panelF_source_data.tsv	Phase 5-Step 3	Injury/remodeling adjustment attenuates module coefficients	yes	Attenuation indicates embedding/sensitivity, not disproof

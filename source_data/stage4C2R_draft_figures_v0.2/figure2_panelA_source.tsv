@@ -1,7 +1,0 @@
-broad_compartment	n_donor_compartment_rows	n_donors	total_nuclei	is_loop_tal	compartment_label
-Collecting_duct_principal	4	4	34849	FALSE	CD principal
-Fibroblast_stromal	4	4	3422	FALSE	Fibro/stromal
-Endothelial	4	4	2558	FALSE	Endothelial
-Injured_undifferentiated_epithelial	4	4	2361	FALSE	Injured epi
-Loop_of_Henle_TAL	4	4	540	TRUE	Loop/TAL
-Pericyte_smooth_muscle	3	3	148	FALSE	Pericyte/SMC

@@ -1,8 +1,0 @@
-field	required	found	n_non_missing	n_unique	example_values	status	notes
-donor_id	yes	yes	43878	4	GSM7290910;GSM7290912;GSM7290913;GSM7290914	pass	""
-sample_id	yes	yes	43878	4	GSM7290910;GSM7290912;GSM7290913;GSM7290914	pass	""
-phase1_cell_type	yes	yes	43878	6	Collecting_duct_principal;Fibroblast_stromal;Endothelial;Injured_undifferentiated_epithelial;Pericyte_smooth_muscle	pass	""
-disease_status	yes	yes	43878	2	healthy_control;stone_disease	pass	""
-expression_assay	yes	yes	1	1	RNA	pass	30940 genes x 43878 nuclei; assay=RNA
-gene_symbol_overlap	yes	yes	118	118	ACP4;ADD3;AIF1;ALPL;ANKRD6	pass	Stage 3R gene symbols compared with Seurat rownames
-Loop_of_Henle_TAL	yes	yes	540	1	Loop_of_Henle_TAL	pass	Loop/TAL label preserved exactly
