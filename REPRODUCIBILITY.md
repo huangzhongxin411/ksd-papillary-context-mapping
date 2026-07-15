@@ -1,4 +1,4 @@
-# Reproducibility guide for manuscript v3.3
+# Reproducibility guide for manuscript v3.4
 
 ## Interpretation boundary
 
@@ -36,9 +36,13 @@ Use `scripts/phase6/` for v3.0-v3.2 manuscript assembly and supplement/package m
 
 Use `scripts/phase7/` for visual polishing, targeted language polishing, clean manuscript rendering, package auditing and repository synchronization. These steps use locked inputs and do not change scientific results, numerical values or claim boundaries.
 
+## Phase 8: v3.4 targeted polish and repository synchronization
+
+The v3.4 package reorders approved manuscript wording and re-renders Figure 3 and Supplementary Figure S2 from locked inputs. No biological analysis, numerical result, source table, candidate assignment, MAGMA module or R1-R6 membership was changed. The spatial scope remains ten sections: four GSE206306 and six GSE231630.
+
 ## Exact source-data and script mapping
 
-Use `scripts/SCRIPT_MAP_v3.3.tsv` to map each current output to its generating or packaging script. Use `source_data/Source_Data_manifest_v3.3.tsv` for panel-level source files. `MANIFEST.tsv` lists the repository payload and `CHECKSUMS.sha256` verifies byte identity.
+Because no analysis was rerun, use `scripts/SCRIPT_MAP_v3.3.tsv` to map each locked analysis output to its generating or packaging script. Use `source_data/Source_Data_manifest_v3.3.tsv` for panel-level source files. `MANIFEST.tsv` lists the repository payload and `CHECKSUMS.sha256` verifies byte identity.
 
 ## Clean-checkout verification
 
