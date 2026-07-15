@@ -1,0 +1,18 @@
+check_item	status	owner	required_action	done_before_repository_sync	notes
+Locked numbers	PASS	Codex/human	Human confirms 21-item audit	yes	No accepted value changed.
+Claim boundaries	PASS	Codex/human	Human confirms final wording	yes	No prohibited positive claim detected.
+DOCX/PDF visual QC	PASS	Codex/human	Final human proof	yes	15-page render has no observed clipping or overlap.
+Figure 3 technical QC	PASS	Codex/human	Human aesthetic approval	yes	Panel A collision fixed; no value change.
+Supplementary Figure S2 technical QC	PASS	Codex/human	Human contrast approval	yes	Five pages retained; no score or statistic changed.
+Unchanged figures/tables	PASS	Repository maintainer	Preserve byte-for-byte during sync	yes	Figures 1, 2, 4, S1, S3 and Tables 1-6.
+Manuscript and figure approval	HUMAN_REQUIRED	All authors	Approve v3.4 wording, Figure 3, S2 and visual policy	yes	Scientific review package is technically ready.
+Ethics wording	HUMAN_REQUIRED	Authors/institution	Verify and replace the institutional placeholder	human decision	Submission blocker; text unchanged.
+CRediT	HUMAN_REQUIRED	All authors	Assign and approve author roles	human decision	Submission blocker.
+Funding confirmation	HUMAN_REQUIRED	Authors	Confirm grant and funder-role wording	human decision	Submission blocker.
+Competing-interest confirmation	HUMAN_REQUIRED	All authors	Confirm final declaration	human decision	Submission blocker.
+All-author approval	HUMAN_REQUIRED	All authors	Approve manuscript and submission	human decision	Required before submission.
+License/privacy approval	HUMAN_REQUIRED	Repository owner	Confirm license intent and manual privacy/binary review	human decision	Required before release.
+GitHub Release v1.0.1 approval	HUMAN_REQUIRED	Repository owner	Approve only after PR merge and post-merge audit	no	v1.0.0 remains the only release.
+Zenodo metadata review	HUMAN_REQUIRED	Authors/repository owner	Review title, creators, affiliations, license and version	no	Do not publish in this stage.
+Zenodo DOI minting	HUMAN_REQUIRED	Repository owner	Mint only after approved GitHub release	no	No DOI invented.
+DOI backfill	HUMAN_REQUIRED	Authors/repository owner	Backfill only after the real DOI resolves	no	Update manuscript, README, CITATION.cff, .zenodo.json and checklist later.
