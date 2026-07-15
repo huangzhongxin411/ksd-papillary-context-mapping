@@ -1,7 +1,7 @@
 {
   "title": "Post-GWAS mapping of kidney stone disease genetic risk to renal papillary contexts",
   "upload_type": "software",
-  "description": "Code, source data, supplementary tables, manifests and selected reproducibility scripts supporting the v3.3 BMC Genomics manuscript.",
+  "description": "Code, source data, supplementary tables, manifests and selected reproducibility scripts supporting the v3.4 manuscript-synchronized package for the future v1.0.1 release.",
   "creators": [
     {
       "name": "Huang, Zhongxin"

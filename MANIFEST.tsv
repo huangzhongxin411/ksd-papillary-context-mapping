@@ -1,5 +1,5 @@
 file_path	file_type	description	source_phase	used_in_manuscript	used_in_supplement	deprecated_status	notes
-.zenodo.json	json	.zenodo.json	Release support	no	no	current	size_bytes=1200
+.zenodo.json	json	.zenodo.json	Release support	no	no	current	size_bytes=1238
 CITATION.cff	cff	CITATION.cff	Release support	no	no	current	size_bytes=1060
 DATA_AVAILABILITY.md	md	DATA_AVAILABILITY.md	Release support	no	no	current	size_bytes=1185
 LICENSE	metadata	LICENSE	Release support	no	no	current	size_bytes=140
