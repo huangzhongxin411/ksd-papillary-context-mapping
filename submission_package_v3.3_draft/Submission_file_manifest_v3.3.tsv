@@ -1,0 +1,30 @@
+submission_item	canonical_file_path	file_type	ready_for_submission	remaining_issue	notes
+Clean manuscript DOCX	manuscript/manuscript_v3.3_submission_clean.docx	docx	yes	Human manuscript and administrative approval	Authoritative submission manuscript; not duplicated in staging index.
+Clean manuscript rendered PDF	manuscript/manuscript_v3.3_submission_clean_rendered.pdf	pdf	yes	Human layout review	Authoritative rendered QC copy; not duplicated in staging index.
+Clean manuscript Markdown	manuscript/manuscript_v3.3_submission_clean.md	md	yes	Human manuscript and administrative approval	Authoritative text source; not duplicated in staging index.
+Main Figure 1 PDF	figures/Figure_1.pdf	pdf	yes	Human visual review	QC Manhattan plot without gene labels.
+Main Figure 1 PNG	figures/Figure_1.png	png	yes	Human visual review	QC Manhattan plot without gene labels.
+Main Figure 2 PDF	figures/Figure_2.pdf	pdf	yes	Human visual review	Authoritative v3.3 polished figure.
+Main Figure 2 PNG	figures/Figure_2.png	png	yes	Human visual review	Authoritative v3.3 polished figure.
+Main Figure 3 PDF	figures/Figure_3.pdf	pdf	yes	Human visual review	Authoritative v3.3 polished figure.
+Main Figure 3 PNG	figures/Figure_3.png	png	yes	Human visual review	Authoritative v3.3 polished figure.
+Main Figure 4 PDF	figures/Figure_4.pdf	pdf	yes	Human visual review	Authoritative v3.3 polished figure.
+Main Figure 4 PNG	figures/Figure_4.png	png	yes	Human visual review	Authoritative v3.3 polished figure.
+Supplementary Figure S1 PDF	supplementary_figures/Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.pdf	pdf	yes	Human visual review	Top MAGMA genes are not causal-gene evidence.
+Supplementary Figure S1 PNG	supplementary_figures/Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.png	png	yes	Human visual review	Authoritative v3.3 polished figure.
+Supplementary Figure S2 PDF	supplementary_figures/Supplementary_Figure_S2_spatial_projection.pdf	pdf	yes	Human visual review	Five-page supplementary tissue-context projection.
+Supplementary Figure S2 PNG	supplementary_figures/Supplementary_Figure_S2_spatial_projection.png	png	yes	Human visual review	Authoritative overview image.
+Supplementary Figure S3 PDF	supplementary_figures/Supplementary_Figure_S3_TWAS_candidate_proxy.pdf	pdf	yes	Human visual review	Thirteen-page TWAS/candidate proxy supplement.
+Supplementary Figure S3 PNG	supplementary_figures/Supplementary_Figure_S3_TWAS_candidate_proxy.png	png	yes	Human visual review	Authoritative overview image.
+Supplementary Tables workbook	supplementary_tables/Supplementary_Tables_1-6.xlsx	xlsx	yes	Human workbook review	Individual TSVs remain in the same canonical directory.
+Supplementary figure legends	supplementary_materials/Supplementary_Figure_Legends_v3.3.md	md	yes	Human editorial approval	Authoritative v3.3 legends.
+Supplementary table captions	supplementary_materials/Supplementary_Table_Captions_v3.3.md	md	yes	Human editorial approval	Authoritative v3.3 captions.
+Source-data manifest	source_data/Source_Data_manifest_v3.3.tsv	tsv	yes	None	All canonical source-data paths are checksum-audited.
+Repository manifest	MANIFEST.tsv	tsv	yes	None	Repository-level path inventory.
+Repository checksums	CHECKSUMS.sha256	sha256	yes	None	Repository-level SHA-256 verification file.
+Data Availability	DATA_AVAILABILITY.md	md	yes	Zenodo DOI pending	Does not represent a repository DOI as minted.
+Repository README	README.md	md	yes	Final release approval	Describes v3.3 and future v1.0.1 status.
+Reproducibility guide	REPRODUCIBILITY.md	md	yes	None	Phase 1-7 reproducibility guide.
+Citation metadata	CITATION.cff	cff	yes	Release date and DOI pending	Human completion required after release and DOI minting.
+Zenodo metadata	.zenodo.json	json	yes	Human metadata approval and DOI pending	Prepared for v1.0.1; does not contain a minted repository DOI.
+

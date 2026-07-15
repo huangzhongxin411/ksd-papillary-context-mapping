@@ -128,6 +128,10 @@ source_data/locked_tables/phase5_step3_tissue_state_paired_model_results.tsv	tsv
 source_data/locked_tables/phase5_step3_tissue_state_sensitivity_interpretation_summary.tsv	tsv	phase5_step3_tissue_state_sensitivity_interpretation_summary.tsv	Phases 1-7	no	no	current	size_bytes=3369
 source_data/locked_tables/phase6_step4_figure3_candidate_matrix_row_selection.tsv	tsv	phase6_step4_figure3_candidate_matrix_row_selection.tsv	Phases 1-7	no	no	current	size_bytes=78544
 source_data/locked_tables/phase6_step4_spatial_accession_correction_audit.tsv	tsv	phase6_step4_spatial_accession_correction_audit.tsv	Phases 1-7	no	no	current	size_bytes=1222
+submission_package_v3.3_draft/BMC_Genomics_readiness_checklist_v3.3.tsv	tsv	BMC_Genomics_readiness_checklist_v3.3.tsv	Release support	no	no	current	size_bytes=2278
+submission_package_v3.3_draft/README.md	md	README.md	Release support	no	no	current	size_bytes=1436
+submission_package_v3.3_draft/Submission_file_manifest_v3.3.tsv	tsv	Submission_file_manifest_v3.3.tsv	Release support	no	no	current	size_bytes=3821
+submission_package_v3.3_draft/Submission_package_mapping_v3.3.tsv	tsv	Submission_package_mapping_v3.3.tsv	Release support	no	no	current	size_bytes=3685
 supplementary_figures/Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.pdf	pdf	Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.pdf	Phases 1-7	no	yes	current	size_bytes=545082
 supplementary_figures/Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.png	png	Supplementary_Figure_S1_GWAS_MAGMA_diagnostics.png	Phases 1-7	no	yes	current	size_bytes=601630
 supplementary_figures/Supplementary_Figure_S2_spatial_projection.pdf	pdf	Supplementary_Figure_S2_spatial_projection.pdf	Phases 1-7	no	yes	current	size_bytes=2007263

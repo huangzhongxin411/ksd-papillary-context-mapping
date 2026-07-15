@@ -1,0 +1,21 @@
+check_item	status	required_action	owner	notes
+Manuscript DOCX	PASS	Final human content and administrative review	Authors	Canonical v3.3 submission-clean DOCX is present.
+Manuscript PDF render	PASS	Final visual/layout review	Authors	Fifteen-page rendered QC PDF is present.
+Main figures	PASS	Final visual review	Authors	Figures 1-4 PDF/PNG files are present and checksum-audited.
+Supplementary figures	PASS	Final visual review	Authors	S1-S3 are present; S2=5 pages and S3=13 pages.
+Supplementary tables	PASS	Final workbook and TSV review	Authors	Tables 1-6 and combined workbook are present.
+Data availability	PASS	Backfill repository DOI only after minting	Authors	Current wording correctly states DOI pending.
+Code availability	PASS	None	Repository maintainer	Selected Phase 1-7 scripts and script map are present.
+Source-data manifest	PASS	None	Repository maintainer	All 29 canonical paths resolve with matching hashes.
+Repository manifest	PASS	Regenerate after any approved repository change	Repository maintainer	All listed paths resolve.
+Checksums	PASS	Regenerate after any approved repository change	Repository maintainer	All current entries validate.
+Ethics wording	HUMAN_REQUIRED	Finalize ethics approval and consent wording	Authors	Do not infer or invent approval details.
+CRediT	HUMAN_REQUIRED	Assign and approve author contribution roles	All authors	Human-only authorship decision.
+Funding	HUMAN_REQUIRED	Confirm funders and award information	Authors	Human confirmation required.
+Competing interests	HUMAN_REQUIRED	Confirm final declaration	All authors	Human confirmation required.
+All-author approval	HUMAN_REQUIRED	Obtain explicit approval of manuscript and submission	Corresponding author	Required before submission and release.
+Cover letter	HUMAN_REQUIRED	Review and approve journal cover letter	Corresponding author	Administrative submission item.
+Repository release v1.0.1	HUMAN_REQUIRED	Approve PR merge and GitHub Release creation	Repository owner	Do not create release before approval.
+Zenodo DOI	HUMAN_REQUIRED	Review Zenodo metadata, publish archive and record DOI	Repository owner	No repository DOI has been minted.
+DOI backfill	HUMAN_REQUIRED	Update manuscript and repository metadata after DOI resolves	Repository owner	Perform only after DOI minting.
+
